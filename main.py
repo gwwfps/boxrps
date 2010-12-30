@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import urllib
+from datetime import datetime, timedelta
 from math import ceil
 from collections import defaultdict
 from google.appengine.ext import webapp
@@ -36,9 +37,12 @@ class RaidListHandler(webapp.RequestHandler):
 
 class MemberDetailHandler(webapp.RequestHandler):
     def get(self, name):
-        member = Member.gql('WHERE name = :1', urllib.unquote(name).decode('utf-8').capitalize()).get()
+        member = Member.gql('WHERE name = :1',
+                            urllib.unquote(name).decode('utf-8').capitalize()).get()
         if member:
-            render_to(self.response, 'member.html', member=member)
+            raids = member.attended_encounters.filter('datetime >',
+                                                      datetime.now()-timedelta(weeks=4))
+            render_to(self.response, 'member.html', member=member, raids=raids)
 
 class EventListHandler(webapp.RequestHandler):
     def get(self):

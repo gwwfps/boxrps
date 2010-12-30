@@ -16,7 +16,7 @@
             </tr>
           </tbody>
         </table>            
-        <h4>参与活动（出勤：{{ member.attendance }}%）</h4>
+        <h4>最近四周活动（出勤：{{ member.attendance }}%）</h4>
         <table>
           <thead>
             <th>日期</th>
@@ -25,7 +25,7 @@
             <th>注释</th>
           </thead>
           <tbody>
-            {% for encounter in member.attended_encounters %}
+            {% for encounter in raids %}
             <tr>
               <td>{{ encounter.datetime }}</td>
               <td><a href="/raid/{{ encounter.key }}">{{ encounter.event.name }}</a></td>
