@@ -11,6 +11,7 @@ class Member(db.Model):
     spent = db.IntegerProperty(default=0)
     adjusted = db.IntegerProperty(default=0)
     balance = db.IntegerProperty(default=0)
+    usable = db.IntegerProperty(default=0)
 
     @property
     def attended_encounters(self):
@@ -23,6 +24,7 @@ class Member(db.Model):
             attended = m.attended_encounters.filter('datetime >', datetime.now()-timedelta(weeks=4)).count()
             attended = float(attended)
             m.attendance = int(attended/total*100)
+            m.usable = min(m.balance, m.attendance * m.balance / 100)
             m.put()
 
 class Event(db.Model):

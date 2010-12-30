@@ -282,6 +282,7 @@ class AdjustmentHandler(webapp.RequestHandler):
             Adjustment(pt=pt, member=member, reason=reason, datetime=dt).put()
             member.adjusted += pt
             member.balance += pt
+            member.usable = min(member.balance, member.attendance * member.balance / 100)
             member.put()
         self.get()
 

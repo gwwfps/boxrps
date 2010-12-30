@@ -10,13 +10,13 @@
           </thead>
           <tbody>
             <tr>
-              <td><b>{{ member.balance|rp }}</b></td>
+              <td>{{ member.balance|rp }} (<b>{{ member.usable|rp }}</b>可用)</td>
               <td>{{ member.earned|rp }}</td>
               <td>{{ member.spent|rp }}</td>
             </tr>
           </tbody>
         </table>            
-        <h4>参与活动</h4>
+        <h4>参与活动（出勤：{{ member.attendance }}%）</h4>
         <table>
           <thead>
             <th>日期</th>

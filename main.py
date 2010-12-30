@@ -17,7 +17,8 @@ class MainHandler(webapp.RequestHandler):
             'bal': 'balance',
             'ern': 'earned',
             'spt': 'spent',
-            'att': 'attendance'
+            'att': 'attendance',
+            'usb': 'usable'
         }
         dirs = defaultdict(lambda: 'd')
         order = sorts.get(sortby, 'attendance')

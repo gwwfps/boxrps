@@ -7,6 +7,7 @@
               <th><a href="/std/nme/{{dir.name}}">名字</a></th>
               <th><a href="/std/cls/{{dir.class_}}">职业</a></th>
               <th><a href="/std/bal/{{dir.balance}}">当前rp</a></th>
+              <th><a href="/std/usb/{{dir.usable}}">可用rp</a></th>
               <th><a href="/std/ern/{{dir.earned}}">奖励rp</a></th>
               <th><a href="/std/spt/{{dir.spent}}">花费rp</a></th>
               <th><a href="/std/att/{{dir.attendance}}">出勤</a></th>
@@ -17,7 +18,8 @@
             <tr>
               <td><a href="/member/{{ member.name }}">{{ member.name }}</a></td>
               <td style="background:#333;">{{ member.class_|class_ }}</td>
-              <td><b>{{ member.balance|rp }}</b></td>
+              <td>{{ member.balance|rp }}</td>
+              <td><b>{{ member.usable|rp }}</b></td>
               <td>{{ member.earned|rp }}{% if member.adjusted %}({{ member.adjusted|rp }}){% endif %}</td>
               <td>{{ member.spent|rp }}</td>
               <td>{{ member.attendance }}%</td>
