@@ -1,0 +1,4703 @@
+%YAML 1.1
+---
+# zitaoca1_rps.rpstc_adjustments
+-
+  adjustment_id: 1
+  adjustment_value: -20.00
+  adjustment_date: 1286341200
+  member_name: Aragornlord
+  adjustment_reason: 霍迪尔被冰冻，RL要求扣分。
+  adjustment_added_by: 小五
+  adjustment_group_key: 93c1053a9d74437c6b046f3a699bb155
+-
+  adjustment_id: 2
+  adjustment_value: -20.00
+  adjustment_date: 1286341200
+  member_name: Mmll
+  adjustment_reason: 霍迪尔被冰冻，RL要求扣分。
+  adjustment_added_by: 小五
+  adjustment_group_key: 93c1053a9d74437c6b046f3a699bb155
+-
+  adjustment_id: 3
+  adjustment_value: -20.00
+  adjustment_date: 1286341200
+  member_name: 恒梦
+  adjustment_reason: 霍迪尔被冰冻，RL要求扣分。
+  adjustment_added_by: 小五
+  adjustment_group_key: 93c1053a9d74437c6b046f3a699bb155
+-
+  adjustment_id: 4
+  adjustment_value: -20.00
+  adjustment_date: 1286341200
+  member_name: 青锋绝影
+  adjustment_reason: 霍迪尔被冰冻，RL要求扣分。
+  adjustment_added_by: 小五
+  adjustment_group_key: 93c1053a9d74437c6b046f3a699bb155
+-
+  adjustment_id: 5
+  adjustment_value: -20.00
+  adjustment_date: 1286341200
+  member_name: 虚幻海洋
+  adjustment_reason: 霍迪尔被冰冻，RL要求扣分。
+  adjustment_added_by: 小五
+  adjustment_group_key: 93c1053a9d74437c6b046f3a699bb155
+# zitaoca1_rps.rpstc_items
+-
+  item_id: 1
+  item_name: 北伐奖章
+  item_buyer: Aragornlord
+  raid_id: 1
+  item_value: 570.00
+  item_date: 1285722000
+  item_added_by: 小五
+  item_group_key: ea0badf075109880efaad54a9226901d
+-
+  item_id: 2
+  item_name: 清风披风
+  item_buyer: 公会需要
+  raid_id: 1
+  item_value: 247.00
+  item_date: 1285722000
+  item_added_by: 小五
+  item_group_key: ce09ca2e08329dc93dcfc700e06d5da4
+-
+  item_id: 3
+  item_name: 英勇长靴
+  item_buyer: 天堂的樱花
+  raid_id: 1
+  item_value: 329.00
+  item_date: 1285722000
+  item_added_by: 小五
+  item_group_key: b95afb0ecf690690e33ddefe23cb486d
+-
+  item_id: 4
+  item_name: 北伐奖章
+  item_buyer: 克鲁特
+  raid_id: 2
+  item_value: 530.00
+  item_date: 1285723838
+  item_added_by: 小五
+  item_group_key: cc5715a971de344c4d5ce6a36ce7d645
+-
+  item_id: 5
+  item_name: 陨落圣光腿铠
+  item_buyer: 天堂的樱花
+  raid_id: 2
+  item_value: 439.00
+  item_date: 1285723838
+  item_added_by: 小五
+  item_group_key: be3910f8fff8cdda81b7eaa8d168a369
+-
+  item_id: 6
+  item_name: 破晓者胫甲
+  item_buyer: 管家婆
+  raid_id: 2
+  item_value: 329.00
+  item_date: 1285723838
+  item_added_by: 小五
+  item_group_key: bb5804286de90487989a7272fe82fb2a
+-
+  item_id: 7
+  item_name: 恶魔领主垂饰
+  item_buyer: 天天都要偷
+  raid_id: 2
+  item_value: 247.00
+  item_date: 1285723838
+  item_added_by: 小五
+  item_group_key: 729fb834fe758bd930c8a0ffc21df959
+-
+  item_id: 8
+  item_name: 偏移披风
+  item_buyer: Phoebestar
+  raid_id: 3
+  item_value: 270.00
+  item_date: 1285727223
+  item_added_by: 小五
+  item_group_key: 2e37937994d15070914dc946aed7bf04
+-
+  item_id: 9
+  item_name: 北伐奖章
+  item_buyer: 小七
+  raid_id: 3
+  item_value: 520.00
+  item_date: 1285727223
+  item_added_by: 小五
+  item_group_key: 410f8e4c6e2e850e9d3cb3acbda8d0da
+-
+  item_id: 10
+  item_name: 血痕束带
+  item_buyer: 青锋绝影
+  raid_id: 3
+  item_value: 329.00
+  item_date: 1285727223
+  item_added_by: 小五
+  item_group_key: 630400cc11dc662c2a93721c5258b83d
+-
+  item_id: 11
+  item_name: 北伐奖章
+  item_buyer: 天天都要偷
+  raid_id: 4
+  item_value: 520.00
+  item_date: 1285734929
+  item_added_by: 小五
+  item_group_key: 9d5faa5bb8ddd908ae300b6a25d52822
+-
+  item_id: 12
+  item_name: 双生之刺
+  item_buyer: 天天都要偷
+  raid_id: 4
+  item_value: 439.00
+  item_date: 1285734929
+  item_added_by: 小五
+  item_group_key: 48623cbc7b922f261abaced0f7549b28
+-
+  item_id: 13
+  item_name: 灰棘束带
+  item_buyer: 饭团橙橙
+  raid_id: 4
+  item_value: 329.00
+  item_date: 1285734929
+  item_added_by: 小五
+  item_group_key: 2d77e018ca6ee65ac30eeab9ae016fb3
+-
+  item_id: 14
+  item_name: 巨兽螺旋
+  item_buyer: Lamphare
+  raid_id: 7
+  item_value: 108.00
+  item_date: 1285844587
+  item_added_by: 小五
+  item_group_key: 43a03209974881d07330ecb6a17383d1
+-
+  item_id: 15
+  item_name: 机械之力
+  item_buyer: Lamphare
+  raid_id: 7
+  item_value: 108.00
+  item_date: 1285844587
+  item_added_by: 小五
+  item_group_key: d6cc61c9e453982245170faa07f30852
+-
+  item_id: 17
+  item_name: 指路星
+  item_buyer: 花的使者
+  raid_id: 8
+  item_value: 201.00
+  item_date: 1285845447
+  item_added_by: 小五
+  item_group_key: 7106da4784c2e676054d5e38d35262f8
+-
+  item_id: 18
+  item_name: 护火腕甲
+  item_buyer: 公会需要
+  raid_id: 9
+  item_value: 108.00
+  item_date: 1285847581
+  item_added_by: 小五
+  item_group_key: f79a50f9d1bd6e438771226a48eb9ea5
+-
+  item_id: 19
+  item_name: 扭曲的面容
+  item_buyer: Salala
+  raid_id: 10
+  item_value: 403.00
+  item_date: 1285848766
+  item_added_by: 小五
+  item_group_key: 560b2f6c6680c98704eaa29a449d57c0
+-
+  item_id: 20
+  item_name: 复仇之心魔印
+  item_buyer: 青锋绝影
+  raid_id: 10
+  item_value: 60.00
+  item_date: 1285848766
+  item_added_by: 小五
+  item_group_key: 88f956454b7ea97be7ba5225f79c1f8a
+-
+  item_id: 21
+  item_name: 专注
+  item_buyer: 哈利菠萝
+  raid_id: 11
+  item_value: 403.00
+  item_date: 1285848980
+  item_added_by: 小五
+  item_group_key: 41584462ab6af6ac3f0e9d77ba11f290
+-
+  item_id: 22
+  item_name: 巨石肩垫
+  item_buyer: Mmll
+  raid_id: 12
+  item_value: 145.00
+  item_date: 1285849222
+  item_added_by: 小五
+  item_group_key: e084115d734e11141923afd47416414d
+-
+  item_id: 23
+  item_name: 变更斗篷
+  item_buyer: Aragornlord
+  raid_id: 13
+  item_value: 108.00
+  item_date: 1285849419
+  item_added_by: 小五
+  item_group_key: 85b2d27d406d11375cc1264d5367a783
+-
+  item_id: 24
+  item_name: 造物者披风
+  item_buyer: Lamphare
+  raid_id: 13
+  item_value: 108.00
+  item_date: 1285849419
+  item_added_by: 小五
+  item_group_key: 2555ed8a7d125d64d93eb7900952683c
+-
+  item_id: 25
+  item_name: 忠诚仆从之戒
+  item_buyer: 公会需要
+  raid_id: 13
+  item_value: 108.00
+  item_date: 1285849419
+  item_added_by: 小五
+  item_group_key: fc8eb3ce5c4fdeefe93e9ebd3ac84c86
+-
+  item_id: 26
+  item_name: 固执胜利者的胸甲
+  item_buyer: Mmll
+  raid_id: 14
+  item_value: 200.00
+  item_date: 1285849701
+  item_added_by: 小五
+  item_group_key: b640be67a6b72e6431591fa4ef3ebbb2
+-
+  item_id: 27
+  item_name: 狂乱之刃
+  item_buyer: 露西娅
+  raid_id: 19
+  item_value: 439.00
+  item_date: 1286282484
+  item_added_by: 小五
+  item_group_key: fcfca182421d84d3f3d74cbb829f01bc
+-
+  item_id: 28
+  item_name: 北伐奖章
+  item_buyer: Eanna
+  raid_id: 19
+  item_value: 550.00
+  item_date: 1286282484
+  item_added_by: 小五
+  item_group_key: 794b87d6039d3ddca051f60767090061
+-
+  item_id: 29
+  item_name: 钢铁碎刃短刀
+  item_buyer: 天天都要偷
+  raid_id: 19
+  item_value: 439.00
+  item_date: 1286282484
+  item_added_by: 小五
+  item_group_key: e679bf37945b8c5427dd377a14d9dfa6
+-
+  item_id: 30
+  item_name: 北伐奖章
+  item_buyer: 纱洛
+  raid_id: 20
+  item_value: 510.00
+  item_date: 1286284790
+  item_added_by: 小五
+  item_group_key: cab38db6e07055e05eede5d0763e51a2
+-
+  item_id: 31
+  item_name: 侵越之印
+  item_buyer: 露西娅
+  raid_id: 20
+  item_value: 439.00
+  item_date: 1286284790
+  item_added_by: 小五
+  item_group_key: 1d9cf497681d3d6b4f93a89abe4bccfc
+-
+  item_id: 32
+  item_name: 战败者的慰藉
+  item_buyer: 饭团橙橙
+  raid_id: 20
+  item_value: 300.00
+  item_date: 1286284790
+  item_added_by: 小五
+  item_group_key: eaf2657eba97dc23f1585284b6695084
+-
+  item_id: 33
+  item_name: 血洗护带
+  item_buyer: Lamphare
+  raid_id: 20
+  item_value: 329.00
+  item_date: 1286284790
+  item_added_by: 小五
+  item_group_key: 830312a6de5ebccde1c0c96e6991d968
+-
+  item_id: 34
+  item_name: 偏移披风
+  item_buyer: Mmll
+  raid_id: 21
+  item_value: 247.00
+  item_date: 1286291783
+  item_added_by: 小五
+  item_group_key: 7bb4f9180f0fd194634a8e5e9073d445
+-
+  item_id: 35
+  item_name: 仇恨深藏腿甲
+  item_buyer: 公会需要
+  raid_id: 21
+  item_value: 439.00
+  item_date: 1286291783
+  item_added_by: 小五
+  item_group_key: 9d13403723cd2f7a80a2e1adaa594e35
+-
+  item_id: 36
+  item_name: 隐秘屠戮护腕
+  item_buyer: Inmytrap
+  raid_id: 21
+  item_value: 247.00
+  item_date: 1286291783
+  item_added_by: 小五
+  item_group_key: 7b3402330d80655c396ade2643eff39d
+-
+  item_id: 37
+  item_name: 北伐奖章
+  item_buyer: 碎羽
+  raid_id: 21
+  item_value: 500.00
+  item_date: 1286291783
+  item_added_by: 小五
+  item_group_key: 7a293652928fd60553e3360ef534be7d
+-
+  item_id: 38
+  item_name: 冷酷制裁战靴
+  item_buyer: Salala
+  raid_id: 22
+  item_value: 329.00
+  item_date: 1286292096
+  item_added_by: 小五
+  item_group_key: cd82287ce7063fe17aa9d1965eb0ca14
+-
+  item_id: 39
+  item_name: 北伐奖章
+  item_buyer: 老鱼
+  raid_id: 22
+  item_value: 500.00
+  item_date: 1286292096
+  item_added_by: 小五
+  item_group_key: 72ac1423bba5af76dd33b0149ae628b5
+-
+  item_id: 40
+  item_name: 死亡的裁决
+  item_buyer: 援助交際
+  raid_id: 22
+  item_value: 675.00
+  item_date: 1286292096
+  item_added_by: 小五
+  item_group_key: 1ca7f3741077568a1abe6e9fb980abc9
+-
+  item_id: 41
+  item_name: 冰湖护胸
+  item_buyer: 天堂的樱花
+  raid_id: 22
+  item_value: 439.00
+  item_date: 1286292096
+  item_added_by: 小五
+  item_group_key: 2edcba34813eda6c46eec912781d9aa0
+-
+  item_id: 42
+  item_name: 北伐奖章
+  item_buyer: Inmytrap
+  raid_id: 23
+  item_value: 520.00
+  item_date: 1286292444
+  item_added_by: 小五
+  item_group_key: 7f8db871cf6687e675a58dc6dd0dbb1f
+-
+  item_id: 43
+  item_name: 遗忘殉难者腰带
+  item_buyer: 天堂的樱花
+  raid_id: 23
+  item_value: 329.00
+  item_date: 1286292444
+  item_added_by: 小五
+  item_group_key: 880c7456fbbf314bbfbb94778feb96b5
+-
+  item_id: 44
+  item_name: 雷矛利斧
+  item_buyer: 青锋绝影
+  raid_id: 23
+  item_value: 439.00
+  item_date: 1286292444
+  item_added_by: 小五
+  item_group_key: e98f4b06c66df7b05ed0911e1f57ac33
+-
+  item_id: 45
+  item_name: 甦醒裹腿
+  item_buyer: Mmll
+  raid_id: 23
+  item_value: 439.00
+  item_date: 1286292444
+  item_added_by: 小五
+  item_group_key: 0c8408c1db2a1b5765d68133f0dd5196
+-
+  item_id: 46
+  item_name: 巨兽燃料手册
+  item_buyer: Kittyz
+  raid_id: 26
+  item_value: 193.00
+  item_date: 1286366613
+  item_added_by: 小五
+  item_group_key: 39eb7476724689b81f9680ec4659e6b9
+-
+  item_id: 47
+  item_name: 泰坦禁卫
+  item_buyer: 卡索弥亚
+  raid_id: 26
+  item_value: 201.00
+  item_date: 1286366613
+  item_added_by: 小五
+  item_group_key: d75adbe2d26580038baf908e8bceba0f
+-
+  item_id: 48
+  item_name: 活焰
+  item_buyer: 橙磊筱裳
+  raid_id: 27
+  item_value: 108.00
+  item_date: 1286370985
+  item_added_by: 小五
+  item_group_key: ad096f1dcf8405bb0eaceea99fcd7534
+-
+  item_id: 49
+  item_name: 侍女镣铐
+  item_buyer: Kittyz
+  raid_id: 27
+  item_value: 108.00
+  item_date: 1286370985
+  item_added_by: 小五
+  item_group_key: 9c886dc2a6ecb3057279d7f406d1bde8
+-
+  item_id: 50
+  item_name: 焦黑萨隆邪铁胫甲
+  item_buyer: Lamphare
+  raid_id: 28
+  item_value: 145.00
+  item_date: 1286371917
+  item_added_by: 小五
+  item_group_key: 1d768ac8337c4b3875c07a1490a4e12a
+-
+  item_id: 51
+  item_name: 持剑者的徽记之戒
+  item_buyer: 卡索弥亚
+  raid_id: 29
+  item_value: 108.00
+  item_date: 1286372066
+  item_added_by: 小五
+  item_group_key: 9f3c9b200844a9249cdf862fc47c4a37
+-
+  item_id: 52
+  item_name: 急躁轻鞋
+  item_buyer: 小七
+  raid_id: 29
+  item_value: 145.00
+  item_date: 1286372066
+  item_added_by: 小五
+  item_group_key: 0cd57539521d84f0df65a6fd5e65992f
+-
+  item_id: 53
+  item_name: 撼地者的徽记
+  item_buyer: 管家婆
+  raid_id: 29
+  item_value: 108.00
+  item_date: 1286372066
+  item_added_by: 小五
+  item_group_key: a8d495e22ce90e7aa6434722071b2460
+-
+  item_id: 54
+  item_name: 柔软斗篷
+  item_buyer: 虚幻海洋
+  raid_id: 30
+  item_value: 108.00
+  item_date: 1286372338
+  item_added_by: 小五
+  item_group_key: 0047b0e249300963f5c6379d02b8b455
+-
+  item_id: 55
+  item_name: 钢铁议会外衣
+  item_buyer: 玛雅
+  raid_id: 30
+  item_value: 193.00
+  item_date: 1286372338
+  item_added_by: 小五
+  item_group_key: 80a5b70dd12d8eb7ee6c401828833c20
+-
+  item_id: 56
+  item_name: 恶毒
+  item_buyer: 天天都要偷
+  raid_id: 31
+  item_value: 201.00
+  item_date: 1286374603
+  item_added_by: 小五
+  item_group_key: abefd0153bfe35d650b7d7c96f9fdc3f
+-
+  item_id: 57
+  item_name: 碎石者
+  item_buyer: 虚幻海洋
+  raid_id: 32
+  item_value: 201.00
+  item_date: 1286375189
+  item_added_by: 小五
+  item_group_key: dd03c721e906c5c98b7f484e25936ef7
+-
+  item_id: 58
+  item_name: 符文铭刻之刃
+  item_buyer: 玛雅
+  raid_id: 32
+  item_value: 201.00
+  item_date: 1286375189
+  item_added_by: 小五
+  item_group_key: e5affd0d7f3b42d0acfabd14297300ff
+-
+  item_id: 59
+  item_name: 固执保卫者的胸甲
+  item_buyer: 飞翔的羊
+  raid_id: 33
+  item_value: 200.00
+  item_date: 1286378454
+  item_added_by: 小五
+  item_group_key: 9d871d0ec05d00888047c58671007750
+-
+  item_id: 60
+  item_name: 固执胜利者的腿甲
+  item_buyer: Mmll
+  raid_id: 37
+  item_value: 200.00
+  item_date: 1286462544
+  item_added_by: 小五
+  item_group_key: 689bcda84625bd74bf7a60867b5a2e42
+-
+  item_id: 61
+  item_name: 圣物猎人的腰带
+  item_buyer: 虚幻海洋
+  raid_id: 37
+  item_value: 145.00
+  item_date: 1286462544
+  item_added_by: 小五
+  item_group_key: fc4c7af5685274e2d42365d80450cd4d
+-
+  item_id: 62
+  item_name: 背弃腰带
+  item_buyer: 炎黄有梦
+  raid_id: 38
+  item_value: 145.00
+  item_date: 1286466222
+  item_added_by: 小五
+  item_group_key: 81a9e67aaada72c2efd2021fd7e9f2c3
+-
+  item_id: 63
+  item_name: 固执胜利者的头冠
+  item_buyer: Mmll
+  raid_id: 38
+  item_value: 200.00
+  item_date: 1286466222
+  item_added_by: 小五
+  item_group_key: 06c327a11100c06c2c37e5c7fa784762
+-
+  item_id: 64
+  item_name: 固执胜利者的头冠
+  item_buyer: 伊佑优
+  raid_id: 38
+  item_value: 200.00
+  item_date: 1286466222
+  item_added_by: 小五
+  item_group_key: 2e5dc897565aea5ab696deb863b6389d
+# zitaoca1_rps.rpstc_members
+-
+  member_id: 2
+  member_name: Aragornlord
+  member_earned: 1420.00
+  member_spent: 678.00
+  member_adjustment: -20.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 34
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 3
+  member_name: Eanna
+  member_earned: 1510.00
+  member_spent: 550.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 37
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 4
+  member_name: Inmytrap
+  member_earned: 1450.00
+  member_spent: 767.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 36
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 5
+  member_name: Lamphare
+  member_earned: 1510.00
+  member_spent: 798.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 38
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 6
+  member_name: Mammamia
+  member_earned: 255.00
+  member_spent: 0.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1285735237
+  member_raidcount: 6
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 7
+  member_name: Phoebestar
+  member_earned: 630.00
+  member_spent: 270.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286292889
+  member_raidcount: 14
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 8
+  member_name: Salala
+  member_earned: 1570.00
+  member_spent: 732.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 39
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 9
+  member_name: 艾露妮的优雅
+  member_earned: 1570.00
+  member_spent: 0.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 39
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 10
+  member_name: 橙磊筱裳
+  member_earned: 1570.00
+  member_spent: 108.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 39
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 11
+  member_name: 饭团橙橙
+  member_earned: 1540.00
+  member_spent: 629.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 38
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 12
+  member_name: 公会需要
+  member_earned: 1480.00
+  member_spent: 902.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 37
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 13
+  member_name: 管家婆
+  member_earned: 1540.00
+  member_spent: 437.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285722000
+  member_lastraid: 1286466650
+  member_raidcount: 38
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 14
+  member_name: 哈利菠萝
+  member_earned: 605.00
+  member_spent: 403.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286366613
+  member_raidcount: 17
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 15
+  member_name: 克鲁特
+  member_earned: 970.00
+  member_spent: 530.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286292889
+  member_raidcount: 24
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 16
+  member_name: 老鱼
+  member_earned: 1060.00
+  member_spent: 500.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286378767
+  member_raidcount: 27
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 17
+  member_name: 露西娅
+  member_earned: 1500.00
+  member_spent: 878.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 36
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 18
+  member_name: 青锋绝影
+  member_earned: 1570.00
+  member_spent: 828.00
+  member_adjustment: -20.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 39
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 19
+  member_name: 纱洛
+  member_earned: 1240.00
+  member_spent: 510.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 28
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 20
+  member_name: 世无道
+  member_earned: 585.00
+  member_spent: 0.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1285851070
+  member_raidcount: 16
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 21
+  member_name: 碎羽
+  member_earned: 1430.00
+  member_spent: 500.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286462544
+  member_raidcount: 36
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 22
+  member_name: 天堂的樱花
+  member_earned: 1570.00
+  member_spent: 1536.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 39
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 23
+  member_name: 天天都要偷
+  member_earned: 1510.00
+  member_spent: 1846.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 38
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 24
+  member_name: 条形码
+  member_earned: 645.00
+  member_spent: 0.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286462282
+  member_raidcount: 17
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 25
+  member_name: 小七
+  member_earned: 1385.00
+  member_spent: 665.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 34
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 26
+  member_name: 欣爷万万岁
+  member_earned: 1290.00
+  member_spent: 0.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 28
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 27
+  member_name: 伊佑优
+  member_earned: 1570.00
+  member_spent: 200.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 39
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 28
+  member_name: 援助交際
+  member_earned: 1570.00
+  member_spent: 675.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285720210
+  member_lastraid: 1286466650
+  member_raidcount: 39
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 35
+  member_name: 玛雅
+  member_earned: 1160.00
+  member_spent: 394.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285844587
+  member_lastraid: 1286466650
+  member_raidcount: 28
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 34
+  member_name: 花的使者
+  member_earned: 920.00
+  member_spent: 201.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285844587
+  member_lastraid: 1286466650
+  member_raidcount: 20
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 33
+  member_name: Mmll
+  member_earned: 1205.00
+  member_spent: 1431.00
+  member_adjustment: -20.00
+  member_status: 1
+  member_firstraid: 1285844587
+  member_lastraid: 1286466650
+  member_raidcount: 30
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 36
+  member_name: Wets
+  member_earned: 755.00
+  member_spent: 0.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1285851651
+  member_lastraid: 1286466650
+  member_raidcount: 19
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 37
+  member_name: 卡索弥亚
+  member_earned: 925.00
+  member_spent: 309.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1286282144
+  member_lastraid: 1286466650
+  member_raidcount: 22
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 38
+  member_name: 小酥
+  member_earned: 325.00
+  member_spent: 0.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1286282144
+  member_lastraid: 1286292889
+  member_raidcount: 7
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 39
+  member_name: 虚幻海洋
+  member_earned: 925.00
+  member_spent: 454.00
+  member_adjustment: -20.00
+  member_status: 1
+  member_firstraid: 1286282144
+  member_lastraid: 1286466650
+  member_raidcount: 22
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 40
+  member_name: 炎黄有梦
+  member_earned: 595.00
+  member_spent: 145.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1286282144
+  member_lastraid: 1286466650
+  member_raidcount: 11
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 41
+  member_name: 御剑随枫
+  member_earned: 805.00
+  member_spent: 0.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1286282144
+  member_lastraid: 1286466650
+  member_raidcount: 19
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 42
+  member_name: 恒梦
+  member_earned: 420.00
+  member_spent: 0.00
+  member_adjustment: -20.00
+  member_status: 1
+  member_firstraid: 1286366493
+  member_lastraid: 1286466650
+  member_raidcount: 13
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 43
+  member_name: Kittyz
+  member_earned: 330.00
+  member_spent: 301.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1286366613
+  member_lastraid: 1286462282
+  member_raidcount: 10
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 44
+  member_name: 飞翔的羊
+  member_earned: 270.00
+  member_spent: 200.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1286366613
+  member_lastraid: 1286378767
+  member_raidcount: 9
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 45
+  member_name: kewell
+  member_earned: 90.00
+  member_spent: 0.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1286453816
+  member_lastraid: 1286462282
+  member_raidcount: 2
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 46
+  member_name: 暮色边城
+  member_earned: 300.00
+  member_spent: 0.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1286453816
+  member_lastraid: 1286466650
+  member_raidcount: 5
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+-
+  member_id: 47
+  member_name: 黯殇骑士
+  member_earned: 300.00
+  member_spent: 0.00
+  member_adjustment: 0.00
+  member_status: 1
+  member_firstraid: 1286453816
+  member_lastraid: 1286466650
+  member_raidcount: 5
+  member_level: 1
+  member_race_id: 0
+  member_class_id: 0
+  member_rank_id: 0
+# zitaoca1_rps.rpstc_raids
+-
+  raid_id: 1
+  raid_name: Raid 十字军试炼 诺森德群兽
+  raid_date: 1285722000
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+  raid_updated_by: 小五
+-
+  raid_id: 2
+  raid_name: Raid 十字军试炼 加拉克苏斯大王
+  raid_date: 1285723838
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 3
+  raid_name: Raid 十字军试炼 阵营勇士
+  raid_date: 1285727223
+  raid_note: 
+  raid_value: 35.00
+  raid_added_by: 小五
+-
+  raid_id: 4
+  raid_name: Raid 十字军试炼 华尔琪双子：菲奥拉 / 艾蒂丝
+  raid_date: 1285734929
+  raid_note: 第一次击杀
+  raid_value: 100.00
+  raid_added_by: 小五
+  raid_updated_by: 小五
+-
+  raid_id: 5
+  raid_name: 考勤
+  raid_date: 1285735237
+  raid_note: 结束
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 6
+  raid_name: 考勤
+  raid_date: 1285720210
+  raid_note: 集合
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 7
+  raid_name: Raid 奥杜尔 攻城区域 烈焰巨兽
+  raid_date: 1285844587
+  raid_note: 
+  raid_value: 20.00
+  raid_added_by: 小五
+  raid_updated_by: 小五
+-
+  raid_id: 8
+  raid_name: Raid 奥杜尔 攻城区域 锋鳞
+  raid_date: 1285845447
+  raid_note: 
+  raid_value: 20.00
+  raid_added_by: 小五
+  raid_updated_by: 小五
+-
+  raid_id: 9
+  raid_name: Raid 奥杜尔 攻城区域 掌炉者伊格尼斯
+  raid_date: 1285847581
+  raid_note: 
+  raid_value: 25.00
+  raid_added_by: 小五
+-
+  raid_id: 10
+  raid_name: Raid 奥杜尔 攻城区域 XT-002拆解者
+  raid_date: 1285848766
+  raid_note: 
+  raid_value: 25.00
+  raid_added_by: 小五
+-
+  raid_id: 11
+  raid_name: Raid 奥杜尔 前厅区域 钢铁议会
+  raid_date: 1285848980
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 12
+  raid_name: Raid 奥杜尔 前厅区域 科隆加恩
+  raid_date: 1285849222
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 13
+  raid_name: Raid 奥杜尔 前厅区域 欧尔莉亚
+  raid_date: 1285849419
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 14
+  raid_name: Raid 奥杜尔 守护者神殿区域 霍迪尔
+  raid_date: 1285849701
+  raid_note: FD，PT加倍
+  raid_value: 80.00
+  raid_added_by: 小五
+  raid_updated_by: 小五
+-
+  raid_id: 15
+  raid_name: Raid 奥杜尔 守护者神殿区域 托里姆
+  raid_date: 1285850928
+  raid_note: 第一次挑战失败，PT不减
+  raid_value: 40.00
+  raid_added_by: 小五
+-
+  raid_id: 16
+  raid_name: 考勤
+  raid_date: 1285851070
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 17
+  raid_name: 考勤
+  raid_date: 1285851651
+  raid_note: RL要求加倍PT
+  raid_value: 60.00
+  raid_added_by: 小五
+-
+  raid_id: 18
+  raid_name: 考勤
+  raid_date: 1286282144
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 19
+  raid_name: Raid 十字军试炼 诺森德群兽
+  raid_date: 1286282484
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 20
+  raid_name: Raid 十字军试炼 加拉克苏斯大王
+  raid_date: 1286284790
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 21
+  raid_name: Raid 十字军试炼 阵营勇士
+  raid_date: 1286291783
+  raid_note: 
+  raid_value: 35.00
+  raid_added_by: 小五
+-
+  raid_id: 22
+  raid_name: Raid 十字军试炼 华尔琪双子：菲奥拉 / 艾蒂丝
+  raid_date: 1286292096
+  raid_note: 
+  raid_value: 50.00
+  raid_added_by: 小五
+-
+  raid_id: 23
+  raid_name: Raid 十字军试炼 阿努巴拉克
+  raid_date: 1286292444
+  raid_note: FD，PT加倍
+  raid_value: 120.00
+  raid_added_by: 小五
+-
+  raid_id: 24
+  raid_name: 考勤
+  raid_date: 1286292889
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 25
+  raid_name: 考勤
+  raid_date: 1286366493
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 26
+  raid_name: Raid 奥杜尔 攻城区域 烈焰巨兽
+  raid_date: 1286366613
+  raid_note: 
+  raid_value: 20.00
+  raid_added_by: 小五
+-
+  raid_id: 27
+  raid_name: Raid 奥杜尔 攻城区域 锋鳞
+  raid_date: 1286370985
+  raid_note: 
+  raid_value: 20.00
+  raid_added_by: 小五
+-
+  raid_id: 28
+  raid_name: Raid 奥杜尔 攻城区域 掌炉者伊格尼斯
+  raid_date: 1286371917
+  raid_note: 
+  raid_value: 25.00
+  raid_added_by: 小五
+-
+  raid_id: 29
+  raid_name: Raid 奥杜尔 攻城区域 XT-002拆解者
+  raid_date: 1286372066
+  raid_note: 
+  raid_value: 25.00
+  raid_added_by: 小五
+-
+  raid_id: 30
+  raid_name: Raid 奥杜尔 前厅区域 钢铁议会
+  raid_date: 1286372338
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 31
+  raid_name: Raid 奥杜尔 前厅区域 科隆加恩
+  raid_date: 1286374603
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 32
+  raid_name: Raid 奥杜尔 前厅区域 欧尔莉亚
+  raid_date: 1286375189
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 33
+  raid_name: Raid 奥杜尔 守护者神殿区域 霍迪尔
+  raid_date: 1286378454
+  raid_note: 
+  raid_value: 40.00
+  raid_added_by: 小五
+-
+  raid_id: 34
+  raid_name: 考勤
+  raid_date: 1286378767
+  raid_note: RL要求奖励20，考勤打卡30.
+  raid_value: 50.00
+  raid_added_by: 小五
+-
+  raid_id: 35
+  raid_name: 考勤
+  raid_date: 1286453816
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+-
+  raid_id: 36
+  raid_name: Raid 十字军试炼 诺森德群兽 &lt;H&gt;
+  raid_date: 1286462282
+  raid_note: 第一次挑战失败，PT不减
+  raid_value: 60.00
+  raid_added_by: 小五
+-
+  raid_id: 37
+  raid_name: Raid 奥杜尔 守护者神殿区域 弗蕾亚
+  raid_date: 1286462544
+  raid_note: FD，PT加倍
+  raid_value: 100.00
+  raid_added_by: 小五
+-
+  raid_id: 38
+  raid_name: Raid 奥杜尔 守护者神殿区域 托里姆
+  raid_date: 1286466222
+  raid_note: FD，PT加倍
+  raid_value: 80.00
+  raid_added_by: 小五
+-
+  raid_id: 39
+  raid_name: 考勤
+  raid_date: 1286466650
+  raid_note: 
+  raid_value: 30.00
+  raid_added_by: 小五
+# zitaoca1_rps.rpstc_raid_attendees
+-
+  raid_id: 1
+  member_name: Aragornlord
+-
+  raid_id: 1
+  member_name: Eanna
+-
+  raid_id: 1
+  member_name: Inmytrap
+-
+  raid_id: 1
+  member_name: Lamphare
+-
+  raid_id: 1
+  member_name: Mammamia
+-
+  raid_id: 1
+  member_name: Phoebestar
+-
+  raid_id: 1
+  member_name: Salala
+-
+  raid_id: 1
+  member_name: 艾露妮的优雅
+-
+  raid_id: 1
+  member_name: 橙磊筱裳
+-
+  raid_id: 1
+  member_name: 饭团橙橙
+-
+  raid_id: 1
+  member_name: 公会需要
+-
+  raid_id: 1
+  member_name: 管家婆
+-
+  raid_id: 1
+  member_name: 哈利菠萝
+-
+  raid_id: 1
+  member_name: 克鲁特
+-
+  raid_id: 1
+  member_name: 老鱼
+-
+  raid_id: 1
+  member_name: 露西娅
+-
+  raid_id: 1
+  member_name: 青锋绝影
+-
+  raid_id: 1
+  member_name: 纱洛
+-
+  raid_id: 1
+  member_name: 世无道
+-
+  raid_id: 1
+  member_name: 碎羽
+-
+  raid_id: 1
+  member_name: 天堂的樱花
+-
+  raid_id: 1
+  member_name: 天天都要偷
+-
+  raid_id: 1
+  member_name: 条形码
+-
+  raid_id: 1
+  member_name: 小七
+-
+  raid_id: 1
+  member_name: 欣爷万万岁
+-
+  raid_id: 1
+  member_name: 伊佑优
+-
+  raid_id: 1
+  member_name: 援助交際
+-
+  raid_id: 2
+  member_name: Aragornlord
+-
+  raid_id: 2
+  member_name: Eanna
+-
+  raid_id: 2
+  member_name: Inmytrap
+-
+  raid_id: 2
+  member_name: Lamphare
+-
+  raid_id: 2
+  member_name: Mammamia
+-
+  raid_id: 2
+  member_name: Phoebestar
+-
+  raid_id: 2
+  member_name: Salala
+-
+  raid_id: 2
+  member_name: 艾露妮的优雅
+-
+  raid_id: 2
+  member_name: 橙磊筱裳
+-
+  raid_id: 2
+  member_name: 饭团橙橙
+-
+  raid_id: 2
+  member_name: 公会需要
+-
+  raid_id: 2
+  member_name: 管家婆
+-
+  raid_id: 2
+  member_name: 哈利菠萝
+-
+  raid_id: 2
+  member_name: 克鲁特
+-
+  raid_id: 2
+  member_name: 老鱼
+-
+  raid_id: 2
+  member_name: 露西娅
+-
+  raid_id: 2
+  member_name: 青锋绝影
+-
+  raid_id: 2
+  member_name: 纱洛
+-
+  raid_id: 2
+  member_name: 世无道
+-
+  raid_id: 2
+  member_name: 碎羽
+-
+  raid_id: 2
+  member_name: 天堂的樱花
+-
+  raid_id: 2
+  member_name: 天天都要偷
+-
+  raid_id: 2
+  member_name: 条形码
+-
+  raid_id: 2
+  member_name: 小七
+-
+  raid_id: 2
+  member_name: 欣爷万万岁
+-
+  raid_id: 2
+  member_name: 伊佑优
+-
+  raid_id: 2
+  member_name: 援助交際
+-
+  raid_id: 3
+  member_name: Aragornlord
+-
+  raid_id: 3
+  member_name: Eanna
+-
+  raid_id: 3
+  member_name: Inmytrap
+-
+  raid_id: 3
+  member_name: Lamphare
+-
+  raid_id: 3
+  member_name: Mammamia
+-
+  raid_id: 3
+  member_name: Phoebestar
+-
+  raid_id: 3
+  member_name: Salala
+-
+  raid_id: 3
+  member_name: 艾露妮的优雅
+-
+  raid_id: 3
+  member_name: 橙磊筱裳
+-
+  raid_id: 3
+  member_name: 饭团橙橙
+-
+  raid_id: 3
+  member_name: 公会需要
+-
+  raid_id: 3
+  member_name: 管家婆
+-
+  raid_id: 3
+  member_name: 哈利菠萝
+-
+  raid_id: 3
+  member_name: 克鲁特
+-
+  raid_id: 3
+  member_name: 老鱼
+-
+  raid_id: 3
+  member_name: 露西娅
+-
+  raid_id: 3
+  member_name: 青锋绝影
+-
+  raid_id: 3
+  member_name: 纱洛
+-
+  raid_id: 3
+  member_name: 世无道
+-
+  raid_id: 3
+  member_name: 碎羽
+-
+  raid_id: 3
+  member_name: 天堂的樱花
+-
+  raid_id: 3
+  member_name: 天天都要偷
+-
+  raid_id: 3
+  member_name: 条形码
+-
+  raid_id: 3
+  member_name: 小七
+-
+  raid_id: 3
+  member_name: 欣爷万万岁
+-
+  raid_id: 3
+  member_name: 伊佑优
+-
+  raid_id: 3
+  member_name: 援助交際
+-
+  raid_id: 4
+  member_name: 援助交際
+-
+  raid_id: 4
+  member_name: 伊佑优
+-
+  raid_id: 4
+  member_name: 欣爷万万岁
+-
+  raid_id: 4
+  member_name: 小七
+-
+  raid_id: 4
+  member_name: 条形码
+-
+  raid_id: 4
+  member_name: 天天都要偷
+-
+  raid_id: 4
+  member_name: 天堂的樱花
+-
+  raid_id: 4
+  member_name: 碎羽
+-
+  raid_id: 4
+  member_name: 世无道
+-
+  raid_id: 4
+  member_name: 纱洛
+-
+  raid_id: 4
+  member_name: 青锋绝影
+-
+  raid_id: 4
+  member_name: 露西娅
+-
+  raid_id: 4
+  member_name: 老鱼
+-
+  raid_id: 4
+  member_name: 克鲁特
+-
+  raid_id: 4
+  member_name: 哈利菠萝
+-
+  raid_id: 4
+  member_name: 管家婆
+-
+  raid_id: 4
+  member_name: 公会需要
+-
+  raid_id: 4
+  member_name: 饭团橙橙
+-
+  raid_id: 4
+  member_name: 橙磊筱裳
+-
+  raid_id: 4
+  member_name: 艾露妮的优雅
+-
+  raid_id: 4
+  member_name: Salala
+-
+  raid_id: 4
+  member_name: Phoebestar
+-
+  raid_id: 4
+  member_name: Mammamia
+-
+  raid_id: 4
+  member_name: Lamphare
+-
+  raid_id: 4
+  member_name: Inmytrap
+-
+  raid_id: 4
+  member_name: Eanna
+-
+  raid_id: 4
+  member_name: Aragornlord
+-
+  raid_id: 5
+  member_name: Aragornlord
+-
+  raid_id: 5
+  member_name: Eanna
+-
+  raid_id: 5
+  member_name: Inmytrap
+-
+  raid_id: 5
+  member_name: Lamphare
+-
+  raid_id: 5
+  member_name: Mammamia
+-
+  raid_id: 5
+  member_name: Phoebestar
+-
+  raid_id: 5
+  member_name: Salala
+-
+  raid_id: 5
+  member_name: 艾露妮的优雅
+-
+  raid_id: 5
+  member_name: 橙磊筱裳
+-
+  raid_id: 5
+  member_name: 饭团橙橙
+-
+  raid_id: 5
+  member_name: 公会需要
+-
+  raid_id: 5
+  member_name: 管家婆
+-
+  raid_id: 5
+  member_name: 哈利菠萝
+-
+  raid_id: 5
+  member_name: 克鲁特
+-
+  raid_id: 5
+  member_name: 老鱼
+-
+  raid_id: 5
+  member_name: 露西娅
+-
+  raid_id: 5
+  member_name: 青锋绝影
+-
+  raid_id: 5
+  member_name: 纱洛
+-
+  raid_id: 5
+  member_name: 世无道
+-
+  raid_id: 5
+  member_name: 碎羽
+-
+  raid_id: 5
+  member_name: 天堂的樱花
+-
+  raid_id: 5
+  member_name: 天天都要偷
+-
+  raid_id: 5
+  member_name: 条形码
+-
+  raid_id: 5
+  member_name: 小七
+-
+  raid_id: 5
+  member_name: 欣爷万万岁
+-
+  raid_id: 5
+  member_name: 伊佑优
+-
+  raid_id: 5
+  member_name: 援助交際
+-
+  raid_id: 6
+  member_name: Aragornlord
+-
+  raid_id: 6
+  member_name: Eanna
+-
+  raid_id: 6
+  member_name: Inmytrap
+-
+  raid_id: 6
+  member_name: Lamphare
+-
+  raid_id: 6
+  member_name: Mammamia
+-
+  raid_id: 6
+  member_name: Phoebestar
+-
+  raid_id: 6
+  member_name: Salala
+-
+  raid_id: 6
+  member_name: 艾露妮的优雅
+-
+  raid_id: 6
+  member_name: 橙磊筱裳
+-
+  raid_id: 6
+  member_name: 饭团橙橙
+-
+  raid_id: 6
+  member_name: 公会需要
+-
+  raid_id: 6
+  member_name: 哈利菠萝
+-
+  raid_id: 6
+  member_name: 克鲁特
+-
+  raid_id: 6
+  member_name: 老鱼
+-
+  raid_id: 6
+  member_name: 露西娅
+-
+  raid_id: 6
+  member_name: 青锋绝影
+-
+  raid_id: 6
+  member_name: 纱洛
+-
+  raid_id: 6
+  member_name: 世无道
+-
+  raid_id: 6
+  member_name: 碎羽
+-
+  raid_id: 6
+  member_name: 天堂的樱花
+-
+  raid_id: 6
+  member_name: 天天都要偷
+-
+  raid_id: 6
+  member_name: 条形码
+-
+  raid_id: 6
+  member_name: 小七
+-
+  raid_id: 6
+  member_name: 欣爷万万岁
+-
+  raid_id: 6
+  member_name: 伊佑优
+-
+  raid_id: 6
+  member_name: 援助交際
+-
+  raid_id: 7
+  member_name: 条形码
+-
+  raid_id: 7
+  member_name: 天天都要偷
+-
+  raid_id: 7
+  member_name: 天堂的樱花
+-
+  raid_id: 7
+  member_name: 碎羽
+-
+  raid_id: 7
+  member_name: 世无道
+-
+  raid_id: 7
+  member_name: 纱洛
+-
+  raid_id: 7
+  member_name: 青锋绝影
+-
+  raid_id: 7
+  member_name: 玛雅
+-
+  raid_id: 7
+  member_name: 老鱼
+-
+  raid_id: 7
+  member_name: 克鲁特
+-
+  raid_id: 7
+  member_name: 花的使者
+-
+  raid_id: 7
+  member_name: 哈利菠萝
+-
+  raid_id: 7
+  member_name: 管家婆
+-
+  raid_id: 7
+  member_name: 公会需要
+-
+  raid_id: 7
+  member_name: 饭团橙橙
+-
+  raid_id: 7
+  member_name: 橙磊筱裳
+-
+  raid_id: 7
+  member_name: 艾露妮的优雅
+-
+  raid_id: 7
+  member_name: Salala
+-
+  raid_id: 7
+  member_name: Phoebestar
+-
+  raid_id: 7
+  member_name: Mmll
+-
+  raid_id: 7
+  member_name: Lamphare
+-
+  raid_id: 7
+  member_name: Inmytrap
+-
+  raid_id: 7
+  member_name: Eanna
+-
+  raid_id: 7
+  member_name: Aragornlord
+-
+  raid_id: 8
+  member_name: 条形码
+-
+  raid_id: 8
+  member_name: 天天都要偷
+-
+  raid_id: 8
+  member_name: 天堂的樱花
+-
+  raid_id: 7
+  member_name: 援助交際
+-
+  raid_id: 8
+  member_name: 碎羽
+-
+  raid_id: 8
+  member_name: 世无道
+-
+  raid_id: 8
+  member_name: 纱洛
+-
+  raid_id: 8
+  member_name: 青锋绝影
+-
+  raid_id: 8
+  member_name: 玛雅
+-
+  raid_id: 8
+  member_name: 老鱼
+-
+  raid_id: 8
+  member_name: 克鲁特
+-
+  raid_id: 7
+  member_name: 小七
+-
+  raid_id: 8
+  member_name: 花的使者
+-
+  raid_id: 8
+  member_name: 哈利菠萝
+-
+  raid_id: 7
+  member_name: 伊佑优
+-
+  raid_id: 8
+  member_name: 管家婆
+-
+  raid_id: 8
+  member_name: 公会需要
+-
+  raid_id: 8
+  member_name: 饭团橙橙
+-
+  raid_id: 8
+  member_name: 橙磊筱裳
+-
+  raid_id: 8
+  member_name: 艾露妮的优雅
+-
+  raid_id: 8
+  member_name: Salala
+-
+  raid_id: 8
+  member_name: Mmll
+-
+  raid_id: 8
+  member_name: Lamphare
+-
+  raid_id: 8
+  member_name: Inmytrap
+-
+  raid_id: 8
+  member_name: Eanna
+-
+  raid_id: 8
+  member_name: 小七
+-
+  raid_id: 8
+  member_name: 伊佑优
+-
+  raid_id: 8
+  member_name: 援助交際
+-
+  raid_id: 9
+  member_name: Eanna
+-
+  raid_id: 9
+  member_name: Inmytrap
+-
+  raid_id: 9
+  member_name: Lamphare
+-
+  raid_id: 9
+  member_name: Mmll
+-
+  raid_id: 9
+  member_name: Salala
+-
+  raid_id: 9
+  member_name: 艾露妮的优雅
+-
+  raid_id: 9
+  member_name: 橙磊筱裳
+-
+  raid_id: 9
+  member_name: 饭团橙橙
+-
+  raid_id: 9
+  member_name: 公会需要
+-
+  raid_id: 9
+  member_name: 管家婆
+-
+  raid_id: 9
+  member_name: 哈利菠萝
+-
+  raid_id: 9
+  member_name: 花的使者
+-
+  raid_id: 9
+  member_name: 克鲁特
+-
+  raid_id: 9
+  member_name: 老鱼
+-
+  raid_id: 9
+  member_name: 露西娅
+-
+  raid_id: 9
+  member_name: 玛雅
+-
+  raid_id: 9
+  member_name: 青锋绝影
+-
+  raid_id: 9
+  member_name: 纱洛
+-
+  raid_id: 9
+  member_name: 世无道
+-
+  raid_id: 9
+  member_name: 碎羽
+-
+  raid_id: 9
+  member_name: 天堂的樱花
+-
+  raid_id: 9
+  member_name: 天天都要偷
+-
+  raid_id: 9
+  member_name: 条形码
+-
+  raid_id: 9
+  member_name: 小七
+-
+  raid_id: 9
+  member_name: 欣爷万万岁
+-
+  raid_id: 9
+  member_name: 伊佑优
+-
+  raid_id: 9
+  member_name: 援助交際
+-
+  raid_id: 10
+  member_name: Eanna
+-
+  raid_id: 10
+  member_name: Inmytrap
+-
+  raid_id: 10
+  member_name: Lamphare
+-
+  raid_id: 10
+  member_name: Mmll
+-
+  raid_id: 10
+  member_name: Salala
+-
+  raid_id: 10
+  member_name: 艾露妮的优雅
+-
+  raid_id: 10
+  member_name: 橙磊筱裳
+-
+  raid_id: 10
+  member_name: 饭团橙橙
+-
+  raid_id: 10
+  member_name: 公会需要
+-
+  raid_id: 10
+  member_name: 管家婆
+-
+  raid_id: 10
+  member_name: 哈利菠萝
+-
+  raid_id: 10
+  member_name: 花的使者
+-
+  raid_id: 10
+  member_name: 克鲁特
+-
+  raid_id: 10
+  member_name: 老鱼
+-
+  raid_id: 10
+  member_name: 露西娅
+-
+  raid_id: 10
+  member_name: 玛雅
+-
+  raid_id: 10
+  member_name: 青锋绝影
+-
+  raid_id: 10
+  member_name: 纱洛
+-
+  raid_id: 10
+  member_name: 世无道
+-
+  raid_id: 10
+  member_name: 碎羽
+-
+  raid_id: 10
+  member_name: 天堂的樱花
+-
+  raid_id: 10
+  member_name: 天天都要偷
+-
+  raid_id: 10
+  member_name: 条形码
+-
+  raid_id: 10
+  member_name: 小七
+-
+  raid_id: 10
+  member_name: 欣爷万万岁
+-
+  raid_id: 10
+  member_name: 伊佑优
+-
+  raid_id: 10
+  member_name: 援助交際
+-
+  raid_id: 11
+  member_name: Aragornlord
+-
+  raid_id: 11
+  member_name: Eanna
+-
+  raid_id: 11
+  member_name: Inmytrap
+-
+  raid_id: 11
+  member_name: Lamphare
+-
+  raid_id: 11
+  member_name: Mmll
+-
+  raid_id: 11
+  member_name: Salala
+-
+  raid_id: 11
+  member_name: 艾露妮的优雅
+-
+  raid_id: 11
+  member_name: 橙磊筱裳
+-
+  raid_id: 11
+  member_name: 饭团橙橙
+-
+  raid_id: 11
+  member_name: 公会需要
+-
+  raid_id: 11
+  member_name: 管家婆
+-
+  raid_id: 11
+  member_name: 哈利菠萝
+-
+  raid_id: 11
+  member_name: 花的使者
+-
+  raid_id: 11
+  member_name: 克鲁特
+-
+  raid_id: 11
+  member_name: 老鱼
+-
+  raid_id: 11
+  member_name: 露西娅
+-
+  raid_id: 11
+  member_name: 玛雅
+-
+  raid_id: 11
+  member_name: 青锋绝影
+-
+  raid_id: 11
+  member_name: 纱洛
+-
+  raid_id: 11
+  member_name: 世无道
+-
+  raid_id: 11
+  member_name: 碎羽
+-
+  raid_id: 11
+  member_name: 天堂的樱花
+-
+  raid_id: 11
+  member_name: 天天都要偷
+-
+  raid_id: 11
+  member_name: 条形码
+-
+  raid_id: 11
+  member_name: 小七
+-
+  raid_id: 11
+  member_name: 欣爷万万岁
+-
+  raid_id: 11
+  member_name: 伊佑优
+-
+  raid_id: 11
+  member_name: 援助交際
+-
+  raid_id: 12
+  member_name: Aragornlord
+-
+  raid_id: 12
+  member_name: Eanna
+-
+  raid_id: 12
+  member_name: Inmytrap
+-
+  raid_id: 12
+  member_name: Lamphare
+-
+  raid_id: 12
+  member_name: Mmll
+-
+  raid_id: 12
+  member_name: Salala
+-
+  raid_id: 12
+  member_name: 艾露妮的优雅
+-
+  raid_id: 12
+  member_name: 橙磊筱裳
+-
+  raid_id: 12
+  member_name: 饭团橙橙
+-
+  raid_id: 12
+  member_name: 公会需要
+-
+  raid_id: 12
+  member_name: 管家婆
+-
+  raid_id: 12
+  member_name: 哈利菠萝
+-
+  raid_id: 12
+  member_name: 花的使者
+-
+  raid_id: 12
+  member_name: 克鲁特
+-
+  raid_id: 12
+  member_name: 老鱼
+-
+  raid_id: 12
+  member_name: 露西娅
+-
+  raid_id: 12
+  member_name: 玛雅
+-
+  raid_id: 12
+  member_name: 青锋绝影
+-
+  raid_id: 12
+  member_name: 纱洛
+-
+  raid_id: 12
+  member_name: 世无道
+-
+  raid_id: 12
+  member_name: 碎羽
+-
+  raid_id: 12
+  member_name: 天堂的樱花
+-
+  raid_id: 12
+  member_name: 天天都要偷
+-
+  raid_id: 12
+  member_name: 条形码
+-
+  raid_id: 12
+  member_name: 小七
+-
+  raid_id: 12
+  member_name: 欣爷万万岁
+-
+  raid_id: 12
+  member_name: 伊佑优
+-
+  raid_id: 12
+  member_name: 援助交際
+-
+  raid_id: 13
+  member_name: Aragornlord
+-
+  raid_id: 13
+  member_name: Eanna
+-
+  raid_id: 13
+  member_name: Inmytrap
+-
+  raid_id: 13
+  member_name: Lamphare
+-
+  raid_id: 13
+  member_name: Mmll
+-
+  raid_id: 13
+  member_name: Salala
+-
+  raid_id: 13
+  member_name: 艾露妮的优雅
+-
+  raid_id: 13
+  member_name: 橙磊筱裳
+-
+  raid_id: 13
+  member_name: 饭团橙橙
+-
+  raid_id: 13
+  member_name: 公会需要
+-
+  raid_id: 13
+  member_name: 管家婆
+-
+  raid_id: 13
+  member_name: 哈利菠萝
+-
+  raid_id: 13
+  member_name: 花的使者
+-
+  raid_id: 13
+  member_name: 克鲁特
+-
+  raid_id: 13
+  member_name: 老鱼
+-
+  raid_id: 13
+  member_name: 露西娅
+-
+  raid_id: 13
+  member_name: 玛雅
+-
+  raid_id: 13
+  member_name: 青锋绝影
+-
+  raid_id: 13
+  member_name: 纱洛
+-
+  raid_id: 13
+  member_name: 世无道
+-
+  raid_id: 13
+  member_name: 碎羽
+-
+  raid_id: 13
+  member_name: 天堂的樱花
+-
+  raid_id: 13
+  member_name: 天天都要偷
+-
+  raid_id: 13
+  member_name: 条形码
+-
+  raid_id: 13
+  member_name: 小七
+-
+  raid_id: 13
+  member_name: 欣爷万万岁
+-
+  raid_id: 13
+  member_name: 伊佑优
+-
+  raid_id: 13
+  member_name: 援助交際
+-
+  raid_id: 14
+  member_name: 援助交際
+-
+  raid_id: 14
+  member_name: 伊佑优
+-
+  raid_id: 14
+  member_name: 欣爷万万岁
+-
+  raid_id: 14
+  member_name: 小七
+-
+  raid_id: 14
+  member_name: 条形码
+-
+  raid_id: 14
+  member_name: 天天都要偷
+-
+  raid_id: 14
+  member_name: 天堂的樱花
+-
+  raid_id: 14
+  member_name: 碎羽
+-
+  raid_id: 14
+  member_name: 世无道
+-
+  raid_id: 14
+  member_name: 纱洛
+-
+  raid_id: 14
+  member_name: 青锋绝影
+-
+  raid_id: 14
+  member_name: 玛雅
+-
+  raid_id: 14
+  member_name: 露西娅
+-
+  raid_id: 14
+  member_name: 老鱼
+-
+  raid_id: 14
+  member_name: 克鲁特
+-
+  raid_id: 14
+  member_name: 花的使者
+-
+  raid_id: 14
+  member_name: 哈利菠萝
+-
+  raid_id: 14
+  member_name: 管家婆
+-
+  raid_id: 14
+  member_name: 公会需要
+-
+  raid_id: 14
+  member_name: 饭团橙橙
+-
+  raid_id: 14
+  member_name: 橙磊筱裳
+-
+  raid_id: 14
+  member_name: 艾露妮的优雅
+-
+  raid_id: 14
+  member_name: Salala
+-
+  raid_id: 14
+  member_name: Mmll
+-
+  raid_id: 14
+  member_name: Lamphare
+-
+  raid_id: 14
+  member_name: Inmytrap
+-
+  raid_id: 14
+  member_name: Eanna
+-
+  raid_id: 14
+  member_name: Aragornlord
+-
+  raid_id: 15
+  member_name: Aragornlord
+-
+  raid_id: 15
+  member_name: Eanna
+-
+  raid_id: 15
+  member_name: Inmytrap
+-
+  raid_id: 15
+  member_name: Lamphare
+-
+  raid_id: 15
+  member_name: Mmll
+-
+  raid_id: 15
+  member_name: Salala
+-
+  raid_id: 15
+  member_name: 艾露妮的优雅
+-
+  raid_id: 15
+  member_name: 橙磊筱裳
+-
+  raid_id: 15
+  member_name: 饭团橙橙
+-
+  raid_id: 15
+  member_name: 公会需要
+-
+  raid_id: 15
+  member_name: 管家婆
+-
+  raid_id: 15
+  member_name: 哈利菠萝
+-
+  raid_id: 15
+  member_name: 花的使者
+-
+  raid_id: 15
+  member_name: 克鲁特
+-
+  raid_id: 15
+  member_name: 老鱼
+-
+  raid_id: 15
+  member_name: 露西娅
+-
+  raid_id: 15
+  member_name: 玛雅
+-
+  raid_id: 15
+  member_name: 青锋绝影
+-
+  raid_id: 15
+  member_name: 纱洛
+-
+  raid_id: 15
+  member_name: 世无道
+-
+  raid_id: 15
+  member_name: 碎羽
+-
+  raid_id: 15
+  member_name: 天堂的樱花
+-
+  raid_id: 15
+  member_name: 天天都要偷
+-
+  raid_id: 15
+  member_name: 条形码
+-
+  raid_id: 15
+  member_name: 小七
+-
+  raid_id: 15
+  member_name: 欣爷万万岁
+-
+  raid_id: 15
+  member_name: 伊佑优
+-
+  raid_id: 15
+  member_name: 援助交際
+-
+  raid_id: 16
+  member_name: Aragornlord
+-
+  raid_id: 16
+  member_name: Eanna
+-
+  raid_id: 16
+  member_name: Inmytrap
+-
+  raid_id: 16
+  member_name: Lamphare
+-
+  raid_id: 16
+  member_name: Mmll
+-
+  raid_id: 16
+  member_name: Salala
+-
+  raid_id: 16
+  member_name: 艾露妮的优雅
+-
+  raid_id: 16
+  member_name: 橙磊筱裳
+-
+  raid_id: 16
+  member_name: 饭团橙橙
+-
+  raid_id: 16
+  member_name: 公会需要
+-
+  raid_id: 16
+  member_name: 管家婆
+-
+  raid_id: 16
+  member_name: 哈利菠萝
+-
+  raid_id: 16
+  member_name: 花的使者
+-
+  raid_id: 16
+  member_name: 克鲁特
+-
+  raid_id: 16
+  member_name: 老鱼
+-
+  raid_id: 16
+  member_name: 露西娅
+-
+  raid_id: 16
+  member_name: 青锋绝影
+-
+  raid_id: 16
+  member_name: 纱洛
+-
+  raid_id: 16
+  member_name: 世无道
+-
+  raid_id: 16
+  member_name: 碎羽
+-
+  raid_id: 16
+  member_name: 天堂的樱花
+-
+  raid_id: 16
+  member_name: 天天都要偷
+-
+  raid_id: 16
+  member_name: 条形码
+-
+  raid_id: 16
+  member_name: 小七
+-
+  raid_id: 16
+  member_name: 欣爷万万岁
+-
+  raid_id: 16
+  member_name: 伊佑优
+-
+  raid_id: 16
+  member_name: 援助交際
+-
+  raid_id: 17
+  member_name: Eanna
+-
+  raid_id: 17
+  member_name: Phoebestar
+-
+  raid_id: 17
+  member_name: Salala
+-
+  raid_id: 17
+  member_name: Wets
+-
+  raid_id: 17
+  member_name: 艾露妮的优雅
+-
+  raid_id: 17
+  member_name: 橙磊筱裳
+-
+  raid_id: 17
+  member_name: 饭团橙橙
+-
+  raid_id: 17
+  member_name: 管家婆
+-
+  raid_id: 17
+  member_name: 花的使者
+-
+  raid_id: 17
+  member_name: 克鲁特
+-
+  raid_id: 17
+  member_name: 露西娅
+-
+  raid_id: 17
+  member_name: 玛雅
+-
+  raid_id: 17
+  member_name: 青锋绝影
+-
+  raid_id: 17
+  member_name: 纱洛
+-
+  raid_id: 17
+  member_name: 碎羽
+-
+  raid_id: 17
+  member_name: 天堂的樱花
+-
+  raid_id: 17
+  member_name: 欣爷万万岁
+-
+  raid_id: 17
+  member_name: 伊佑优
+-
+  raid_id: 17
+  member_name: 援助交際
+-
+  raid_id: 18
+  member_name: Aragornlord
+-
+  raid_id: 18
+  member_name: Lamphare
+-
+  raid_id: 18
+  member_name: Mmll
+-
+  raid_id: 18
+  member_name: Salala
+-
+  raid_id: 18
+  member_name: 艾露妮的优雅
+-
+  raid_id: 18
+  member_name: 橙磊筱裳
+-
+  raid_id: 18
+  member_name: 饭团橙橙
+-
+  raid_id: 18
+  member_name: 公会需要
+-
+  raid_id: 18
+  member_name: 管家婆
+-
+  raid_id: 18
+  member_name: 卡索弥亚
+-
+  raid_id: 18
+  member_name: 克鲁特
+-
+  raid_id: 18
+  member_name: 老鱼
+-
+  raid_id: 18
+  member_name: 青锋绝影
+-
+  raid_id: 18
+  member_name: 纱洛
+-
+  raid_id: 18
+  member_name: 碎羽
+-
+  raid_id: 18
+  member_name: 天堂的樱花
+-
+  raid_id: 18
+  member_name: 天天都要偷
+-
+  raid_id: 18
+  member_name: 小酥
+-
+  raid_id: 18
+  member_name: 欣爷万万岁
+-
+  raid_id: 18
+  member_name: 虚幻海洋
+-
+  raid_id: 18
+  member_name: 炎黄有梦
+-
+  raid_id: 18
+  member_name: 伊佑优
+-
+  raid_id: 18
+  member_name: 御剑随枫
+-
+  raid_id: 18
+  member_name: 援助交際
+-
+  raid_id: 19
+  member_name: Aragornlord
+-
+  raid_id: 19
+  member_name: Eanna
+-
+  raid_id: 19
+  member_name: Inmytrap
+-
+  raid_id: 19
+  member_name: Lamphare
+-
+  raid_id: 19
+  member_name: Mmll
+-
+  raid_id: 19
+  member_name: Phoebestar
+-
+  raid_id: 19
+  member_name: Salala
+-
+  raid_id: 19
+  member_name: Wets
+-
+  raid_id: 19
+  member_name: 艾露妮的优雅
+-
+  raid_id: 19
+  member_name: 橙磊筱裳
+-
+  raid_id: 19
+  member_name: 饭团橙橙
+-
+  raid_id: 19
+  member_name: 公会需要
+-
+  raid_id: 19
+  member_name: 管家婆
+-
+  raid_id: 19
+  member_name: 卡索弥亚
+-
+  raid_id: 19
+  member_name: 克鲁特
+-
+  raid_id: 19
+  member_name: 老鱼
+-
+  raid_id: 19
+  member_name: 露西娅
+-
+  raid_id: 19
+  member_name: 玛雅
+-
+  raid_id: 19
+  member_name: 青锋绝影
+-
+  raid_id: 19
+  member_name: 纱洛
+-
+  raid_id: 19
+  member_name: 碎羽
+-
+  raid_id: 19
+  member_name: 天堂的樱花
+-
+  raid_id: 19
+  member_name: 天天都要偷
+-
+  raid_id: 19
+  member_name: 小酥
+-
+  raid_id: 19
+  member_name: 欣爷万万岁
+-
+  raid_id: 19
+  member_name: 虚幻海洋
+-
+  raid_id: 19
+  member_name: 炎黄有梦
+-
+  raid_id: 19
+  member_name: 伊佑优
+-
+  raid_id: 19
+  member_name: 御剑随枫
+-
+  raid_id: 19
+  member_name: 援助交際
+-
+  raid_id: 20
+  member_name: Aragornlord
+-
+  raid_id: 20
+  member_name: Eanna
+-
+  raid_id: 20
+  member_name: Inmytrap
+-
+  raid_id: 20
+  member_name: Lamphare
+-
+  raid_id: 20
+  member_name: Mmll
+-
+  raid_id: 20
+  member_name: Phoebestar
+-
+  raid_id: 20
+  member_name: Salala
+-
+  raid_id: 20
+  member_name: Wets
+-
+  raid_id: 20
+  member_name: 艾露妮的优雅
+-
+  raid_id: 20
+  member_name: 橙磊筱裳
+-
+  raid_id: 20
+  member_name: 饭团橙橙
+-
+  raid_id: 20
+  member_name: 公会需要
+-
+  raid_id: 20
+  member_name: 管家婆
+-
+  raid_id: 20
+  member_name: 卡索弥亚
+-
+  raid_id: 20
+  member_name: 克鲁特
+-
+  raid_id: 20
+  member_name: 老鱼
+-
+  raid_id: 20
+  member_name: 露西娅
+-
+  raid_id: 20
+  member_name: 青锋绝影
+-
+  raid_id: 20
+  member_name: 纱洛
+-
+  raid_id: 20
+  member_name: 碎羽
+-
+  raid_id: 20
+  member_name: 天堂的樱花
+-
+  raid_id: 20
+  member_name: 天天都要偷
+-
+  raid_id: 20
+  member_name: 小酥
+-
+  raid_id: 20
+  member_name: 欣爷万万岁
+-
+  raid_id: 20
+  member_name: 虚幻海洋
+-
+  raid_id: 20
+  member_name: 炎黄有梦
+-
+  raid_id: 20
+  member_name: 伊佑优
+-
+  raid_id: 20
+  member_name: 御剑随枫
+-
+  raid_id: 20
+  member_name: 援助交際
+-
+  raid_id: 21
+  member_name: Aragornlord
+-
+  raid_id: 21
+  member_name: Eanna
+-
+  raid_id: 21
+  member_name: Inmytrap
+-
+  raid_id: 21
+  member_name: Lamphare
+-
+  raid_id: 21
+  member_name: Mmll
+-
+  raid_id: 21
+  member_name: Phoebestar
+-
+  raid_id: 21
+  member_name: Salala
+-
+  raid_id: 21
+  member_name: Wets
+-
+  raid_id: 21
+  member_name: 艾露妮的优雅
+-
+  raid_id: 21
+  member_name: 橙磊筱裳
+-
+  raid_id: 21
+  member_name: 饭团橙橙
+-
+  raid_id: 21
+  member_name: 公会需要
+-
+  raid_id: 21
+  member_name: 管家婆
+-
+  raid_id: 21
+  member_name: 卡索弥亚
+-
+  raid_id: 21
+  member_name: 克鲁特
+-
+  raid_id: 21
+  member_name: 老鱼
+-
+  raid_id: 21
+  member_name: 露西娅
+-
+  raid_id: 21
+  member_name: 青锋绝影
+-
+  raid_id: 21
+  member_name: 纱洛
+-
+  raid_id: 21
+  member_name: 碎羽
+-
+  raid_id: 21
+  member_name: 天堂的樱花
+-
+  raid_id: 21
+  member_name: 天天都要偷
+-
+  raid_id: 21
+  member_name: 小酥
+-
+  raid_id: 21
+  member_name: 欣爷万万岁
+-
+  raid_id: 21
+  member_name: 虚幻海洋
+-
+  raid_id: 21
+  member_name: 炎黄有梦
+-
+  raid_id: 21
+  member_name: 伊佑优
+-
+  raid_id: 21
+  member_name: 御剑随枫
+-
+  raid_id: 21
+  member_name: 援助交際
+-
+  raid_id: 22
+  member_name: Aragornlord
+-
+  raid_id: 22
+  member_name: Eanna
+-
+  raid_id: 22
+  member_name: Inmytrap
+-
+  raid_id: 22
+  member_name: Lamphare
+-
+  raid_id: 22
+  member_name: Mmll
+-
+  raid_id: 22
+  member_name: Phoebestar
+-
+  raid_id: 22
+  member_name: Salala
+-
+  raid_id: 22
+  member_name: 艾露妮的优雅
+-
+  raid_id: 22
+  member_name: 橙磊筱裳
+-
+  raid_id: 22
+  member_name: 饭团橙橙
+-
+  raid_id: 22
+  member_name: 公会需要
+-
+  raid_id: 22
+  member_name: 管家婆
+-
+  raid_id: 22
+  member_name: 卡索弥亚
+-
+  raid_id: 22
+  member_name: 克鲁特
+-
+  raid_id: 22
+  member_name: 老鱼
+-
+  raid_id: 22
+  member_name: 露西娅
+-
+  raid_id: 22
+  member_name: 玛雅
+-
+  raid_id: 22
+  member_name: 青锋绝影
+-
+  raid_id: 22
+  member_name: 纱洛
+-
+  raid_id: 22
+  member_name: 碎羽
+-
+  raid_id: 22
+  member_name: 天堂的樱花
+-
+  raid_id: 22
+  member_name: 天天都要偷
+-
+  raid_id: 22
+  member_name: 小七
+-
+  raid_id: 22
+  member_name: 小酥
+-
+  raid_id: 22
+  member_name: 欣爷万万岁
+-
+  raid_id: 22
+  member_name: 虚幻海洋
+-
+  raid_id: 22
+  member_name: 炎黄有梦
+-
+  raid_id: 22
+  member_name: 伊佑优
+-
+  raid_id: 22
+  member_name: 御剑随枫
+-
+  raid_id: 22
+  member_name: 援助交際
+-
+  raid_id: 23
+  member_name: Aragornlord
+-
+  raid_id: 23
+  member_name: Eanna
+-
+  raid_id: 23
+  member_name: Inmytrap
+-
+  raid_id: 23
+  member_name: Lamphare
+-
+  raid_id: 23
+  member_name: Mmll
+-
+  raid_id: 23
+  member_name: Phoebestar
+-
+  raid_id: 23
+  member_name: Salala
+-
+  raid_id: 23
+  member_name: 艾露妮的优雅
+-
+  raid_id: 23
+  member_name: 橙磊筱裳
+-
+  raid_id: 23
+  member_name: 饭团橙橙
+-
+  raid_id: 23
+  member_name: 公会需要
+-
+  raid_id: 23
+  member_name: 管家婆
+-
+  raid_id: 23
+  member_name: 花的使者
+-
+  raid_id: 23
+  member_name: 卡索弥亚
+-
+  raid_id: 23
+  member_name: 克鲁特
+-
+  raid_id: 23
+  member_name: 老鱼
+-
+  raid_id: 23
+  member_name: 露西娅
+-
+  raid_id: 23
+  member_name: 玛雅
+-
+  raid_id: 23
+  member_name: 青锋绝影
+-
+  raid_id: 23
+  member_name: 纱洛
+-
+  raid_id: 23
+  member_name: 碎羽
+-
+  raid_id: 23
+  member_name: 天堂的樱花
+-
+  raid_id: 23
+  member_name: 天天都要偷
+-
+  raid_id: 23
+  member_name: 小七
+-
+  raid_id: 23
+  member_name: 小酥
+-
+  raid_id: 23
+  member_name: 欣爷万万岁
+-
+  raid_id: 23
+  member_name: 虚幻海洋
+-
+  raid_id: 23
+  member_name: 炎黄有梦
+-
+  raid_id: 23
+  member_name: 伊佑优
+-
+  raid_id: 23
+  member_name: 御剑随枫
+-
+  raid_id: 23
+  member_name: 援助交際
+-
+  raid_id: 24
+  member_name: Aragornlord
+-
+  raid_id: 24
+  member_name: Eanna
+-
+  raid_id: 24
+  member_name: Inmytrap
+-
+  raid_id: 24
+  member_name: Lamphare
+-
+  raid_id: 24
+  member_name: Mmll
+-
+  raid_id: 24
+  member_name: Phoebestar
+-
+  raid_id: 24
+  member_name: Salala
+-
+  raid_id: 24
+  member_name: 艾露妮的优雅
+-
+  raid_id: 24
+  member_name: 橙磊筱裳
+-
+  raid_id: 24
+  member_name: 饭团橙橙
+-
+  raid_id: 24
+  member_name: 公会需要
+-
+  raid_id: 24
+  member_name: 管家婆
+-
+  raid_id: 24
+  member_name: 花的使者
+-
+  raid_id: 24
+  member_name: 卡索弥亚
+-
+  raid_id: 24
+  member_name: 克鲁特
+-
+  raid_id: 24
+  member_name: 老鱼
+-
+  raid_id: 24
+  member_name: 露西娅
+-
+  raid_id: 24
+  member_name: 玛雅
+-
+  raid_id: 24
+  member_name: 青锋绝影
+-
+  raid_id: 24
+  member_name: 纱洛
+-
+  raid_id: 24
+  member_name: 碎羽
+-
+  raid_id: 24
+  member_name: 天堂的樱花
+-
+  raid_id: 24
+  member_name: 天天都要偷
+-
+  raid_id: 24
+  member_name: 小七
+-
+  raid_id: 24
+  member_name: 小酥
+-
+  raid_id: 24
+  member_name: 欣爷万万岁
+-
+  raid_id: 24
+  member_name: 虚幻海洋
+-
+  raid_id: 24
+  member_name: 炎黄有梦
+-
+  raid_id: 24
+  member_name: 伊佑优
+-
+  raid_id: 24
+  member_name: 御剑随枫
+-
+  raid_id: 24
+  member_name: 援助交際
+-
+  raid_id: 25
+  member_name: Aragornlord
+-
+  raid_id: 25
+  member_name: Lamphare
+-
+  raid_id: 25
+  member_name: Salala
+-
+  raid_id: 25
+  member_name: Wets
+-
+  raid_id: 25
+  member_name: 艾露妮的优雅
+-
+  raid_id: 25
+  member_name: 橙磊筱裳
+-
+  raid_id: 25
+  member_name: 管家婆
+-
+  raid_id: 25
+  member_name: 恒梦
+-
+  raid_id: 25
+  member_name: 卡索弥亚
+-
+  raid_id: 25
+  member_name: 露西娅
+-
+  raid_id: 25
+  member_name: 青锋绝影
+-
+  raid_id: 25
+  member_name: 碎羽
+-
+  raid_id: 25
+  member_name: 天堂的樱花
+-
+  raid_id: 25
+  member_name: 天天都要偷
+-
+  raid_id: 25
+  member_name: 小七
+-
+  raid_id: 25
+  member_name: 虚幻海洋
+-
+  raid_id: 25
+  member_name: 伊佑优
+-
+  raid_id: 25
+  member_name: 御剑随枫
+-
+  raid_id: 25
+  member_name: 援助交際
+-
+  raid_id: 26
+  member_name: Eanna
+-
+  raid_id: 26
+  member_name: Inmytrap
+-
+  raid_id: 26
+  member_name: Kittyz
+-
+  raid_id: 26
+  member_name: Lamphare
+-
+  raid_id: 26
+  member_name: Salala
+-
+  raid_id: 26
+  member_name: Wets
+-
+  raid_id: 26
+  member_name: 艾露妮的优雅
+-
+  raid_id: 26
+  member_name: 橙磊筱裳
+-
+  raid_id: 26
+  member_name: 饭团橙橙
+-
+  raid_id: 26
+  member_name: 飞翔的羊
+-
+  raid_id: 26
+  member_name: 公会需要
+-
+  raid_id: 26
+  member_name: 管家婆
+-
+  raid_id: 26
+  member_name: 哈利菠萝
+-
+  raid_id: 26
+  member_name: 恒梦
+-
+  raid_id: 26
+  member_name: 花的使者
+-
+  raid_id: 26
+  member_name: 卡索弥亚
+-
+  raid_id: 26
+  member_name: 露西娅
+-
+  raid_id: 26
+  member_name: 玛雅
+-
+  raid_id: 26
+  member_name: 青锋绝影
+-
+  raid_id: 26
+  member_name: 碎羽
+-
+  raid_id: 26
+  member_name: 天堂的樱花
+-
+  raid_id: 26
+  member_name: 天天都要偷
+-
+  raid_id: 26
+  member_name: 小七
+-
+  raid_id: 26
+  member_name: 虚幻海洋
+-
+  raid_id: 26
+  member_name: 伊佑优
+-
+  raid_id: 26
+  member_name: 御剑随枫
+-
+  raid_id: 26
+  member_name: 援助交際
+-
+  raid_id: 27
+  member_name: Aragornlord
+-
+  raid_id: 27
+  member_name: Eanna
+-
+  raid_id: 27
+  member_name: Inmytrap
+-
+  raid_id: 27
+  member_name: Kittyz
+-
+  raid_id: 27
+  member_name: Lamphare
+-
+  raid_id: 27
+  member_name: Mmll
+-
+  raid_id: 27
+  member_name: Salala
+-
+  raid_id: 27
+  member_name: Wets
+-
+  raid_id: 27
+  member_name: 艾露妮的优雅
+-
+  raid_id: 27
+  member_name: 橙磊筱裳
+-
+  raid_id: 27
+  member_name: 饭团橙橙
+-
+  raid_id: 27
+  member_name: 飞翔的羊
+-
+  raid_id: 27
+  member_name: 公会需要
+-
+  raid_id: 27
+  member_name: 管家婆
+-
+  raid_id: 27
+  member_name: 恒梦
+-
+  raid_id: 27
+  member_name: 卡索弥亚
+-
+  raid_id: 27
+  member_name: 露西娅
+-
+  raid_id: 27
+  member_name: 玛雅
+-
+  raid_id: 27
+  member_name: 青锋绝影
+-
+  raid_id: 27
+  member_name: 碎羽
+-
+  raid_id: 27
+  member_name: 天堂的樱花
+-
+  raid_id: 27
+  member_name: 天天都要偷
+-
+  raid_id: 27
+  member_name: 小七
+-
+  raid_id: 27
+  member_name: 虚幻海洋
+-
+  raid_id: 27
+  member_name: 伊佑优
+-
+  raid_id: 27
+  member_name: 御剑随枫
+-
+  raid_id: 27
+  member_name: 援助交際
+-
+  raid_id: 28
+  member_name: Aragornlord
+-
+  raid_id: 28
+  member_name: Eanna
+-
+  raid_id: 28
+  member_name: Inmytrap
+-
+  raid_id: 28
+  member_name: Kittyz
+-
+  raid_id: 28
+  member_name: Lamphare
+-
+  raid_id: 28
+  member_name: Mmll
+-
+  raid_id: 28
+  member_name: Salala
+-
+  raid_id: 28
+  member_name: Wets
+-
+  raid_id: 28
+  member_name: 艾露妮的优雅
+-
+  raid_id: 28
+  member_name: 橙磊筱裳
+-
+  raid_id: 28
+  member_name: 饭团橙橙
+-
+  raid_id: 28
+  member_name: 飞翔的羊
+-
+  raid_id: 28
+  member_name: 公会需要
+-
+  raid_id: 28
+  member_name: 管家婆
+-
+  raid_id: 28
+  member_name: 恒梦
+-
+  raid_id: 28
+  member_name: 卡索弥亚
+-
+  raid_id: 28
+  member_name: 露西娅
+-
+  raid_id: 28
+  member_name: 玛雅
+-
+  raid_id: 28
+  member_name: 青锋绝影
+-
+  raid_id: 28
+  member_name: 碎羽
+-
+  raid_id: 28
+  member_name: 天堂的樱花
+-
+  raid_id: 28
+  member_name: 天天都要偷
+-
+  raid_id: 28
+  member_name: 小七
+-
+  raid_id: 28
+  member_name: 虚幻海洋
+-
+  raid_id: 28
+  member_name: 伊佑优
+-
+  raid_id: 28
+  member_name: 御剑随枫
+-
+  raid_id: 28
+  member_name: 援助交際
+-
+  raid_id: 29
+  member_name: Aragornlord
+-
+  raid_id: 29
+  member_name: Eanna
+-
+  raid_id: 29
+  member_name: Inmytrap
+-
+  raid_id: 29
+  member_name: Kittyz
+-
+  raid_id: 29
+  member_name: Lamphare
+-
+  raid_id: 29
+  member_name: Mmll
+-
+  raid_id: 29
+  member_name: Salala
+-
+  raid_id: 29
+  member_name: Wets
+-
+  raid_id: 29
+  member_name: 艾露妮的优雅
+-
+  raid_id: 29
+  member_name: 橙磊筱裳
+-
+  raid_id: 29
+  member_name: 饭团橙橙
+-
+  raid_id: 29
+  member_name: 飞翔的羊
+-
+  raid_id: 29
+  member_name: 公会需要
+-
+  raid_id: 29
+  member_name: 管家婆
+-
+  raid_id: 29
+  member_name: 恒梦
+-
+  raid_id: 29
+  member_name: 卡索弥亚
+-
+  raid_id: 29
+  member_name: 露西娅
+-
+  raid_id: 29
+  member_name: 玛雅
+-
+  raid_id: 29
+  member_name: 青锋绝影
+-
+  raid_id: 29
+  member_name: 碎羽
+-
+  raid_id: 29
+  member_name: 天堂的樱花
+-
+  raid_id: 29
+  member_name: 天天都要偷
+-
+  raid_id: 29
+  member_name: 小七
+-
+  raid_id: 29
+  member_name: 虚幻海洋
+-
+  raid_id: 29
+  member_name: 伊佑优
+-
+  raid_id: 29
+  member_name: 御剑随枫
+-
+  raid_id: 29
+  member_name: 援助交際
+-
+  raid_id: 30
+  member_name: Aragornlord
+-
+  raid_id: 30
+  member_name: Eanna
+-
+  raid_id: 30
+  member_name: Inmytrap
+-
+  raid_id: 30
+  member_name: Kittyz
+-
+  raid_id: 30
+  member_name: Lamphare
+-
+  raid_id: 30
+  member_name: Mmll
+-
+  raid_id: 30
+  member_name: Salala
+-
+  raid_id: 30
+  member_name: Wets
+-
+  raid_id: 30
+  member_name: 艾露妮的优雅
+-
+  raid_id: 30
+  member_name: 橙磊筱裳
+-
+  raid_id: 30
+  member_name: 饭团橙橙
+-
+  raid_id: 30
+  member_name: 飞翔的羊
+-
+  raid_id: 30
+  member_name: 公会需要
+-
+  raid_id: 30
+  member_name: 管家婆
+-
+  raid_id: 30
+  member_name: 恒梦
+-
+  raid_id: 30
+  member_name: 卡索弥亚
+-
+  raid_id: 30
+  member_name: 露西娅
+-
+  raid_id: 30
+  member_name: 玛雅
+-
+  raid_id: 30
+  member_name: 青锋绝影
+-
+  raid_id: 30
+  member_name: 碎羽
+-
+  raid_id: 30
+  member_name: 天堂的樱花
+-
+  raid_id: 30
+  member_name: 天天都要偷
+-
+  raid_id: 30
+  member_name: 小七
+-
+  raid_id: 30
+  member_name: 虚幻海洋
+-
+  raid_id: 30
+  member_name: 伊佑优
+-
+  raid_id: 30
+  member_name: 御剑随枫
+-
+  raid_id: 30
+  member_name: 援助交際
+-
+  raid_id: 31
+  member_name: Aragornlord
+-
+  raid_id: 31
+  member_name: Eanna
+-
+  raid_id: 31
+  member_name: Inmytrap
+-
+  raid_id: 31
+  member_name: Kittyz
+-
+  raid_id: 31
+  member_name: Lamphare
+-
+  raid_id: 31
+  member_name: Mmll
+-
+  raid_id: 31
+  member_name: Salala
+-
+  raid_id: 31
+  member_name: Wets
+-
+  raid_id: 31
+  member_name: 艾露妮的优雅
+-
+  raid_id: 31
+  member_name: 橙磊筱裳
+-
+  raid_id: 31
+  member_name: 饭团橙橙
+-
+  raid_id: 31
+  member_name: 飞翔的羊
+-
+  raid_id: 31
+  member_name: 公会需要
+-
+  raid_id: 31
+  member_name: 管家婆
+-
+  raid_id: 31
+  member_name: 恒梦
+-
+  raid_id: 31
+  member_name: 卡索弥亚
+-
+  raid_id: 31
+  member_name: 老鱼
+-
+  raid_id: 31
+  member_name: 露西娅
+-
+  raid_id: 31
+  member_name: 玛雅
+-
+  raid_id: 31
+  member_name: 青锋绝影
+-
+  raid_id: 31
+  member_name: 碎羽
+-
+  raid_id: 31
+  member_name: 天堂的樱花
+-
+  raid_id: 31
+  member_name: 天天都要偷
+-
+  raid_id: 31
+  member_name: 小七
+-
+  raid_id: 31
+  member_name: 虚幻海洋
+-
+  raid_id: 31
+  member_name: 伊佑优
+-
+  raid_id: 31
+  member_name: 御剑随枫
+-
+  raid_id: 31
+  member_name: 援助交際
+-
+  raid_id: 32
+  member_name: Aragornlord
+-
+  raid_id: 32
+  member_name: Eanna
+-
+  raid_id: 32
+  member_name: Inmytrap
+-
+  raid_id: 32
+  member_name: Kittyz
+-
+  raid_id: 32
+  member_name: Lamphare
+-
+  raid_id: 32
+  member_name: Mmll
+-
+  raid_id: 32
+  member_name: Salala
+-
+  raid_id: 32
+  member_name: Wets
+-
+  raid_id: 32
+  member_name: 艾露妮的优雅
+-
+  raid_id: 32
+  member_name: 橙磊筱裳
+-
+  raid_id: 32
+  member_name: 饭团橙橙
+-
+  raid_id: 32
+  member_name: 飞翔的羊
+-
+  raid_id: 32
+  member_name: 公会需要
+-
+  raid_id: 32
+  member_name: 管家婆
+-
+  raid_id: 32
+  member_name: 恒梦
+-
+  raid_id: 32
+  member_name: 卡索弥亚
+-
+  raid_id: 32
+  member_name: 老鱼
+-
+  raid_id: 32
+  member_name: 露西娅
+-
+  raid_id: 32
+  member_name: 玛雅
+-
+  raid_id: 32
+  member_name: 青锋绝影
+-
+  raid_id: 32
+  member_name: 碎羽
+-
+  raid_id: 32
+  member_name: 天堂的樱花
+-
+  raid_id: 32
+  member_name: 天天都要偷
+-
+  raid_id: 32
+  member_name: 小七
+-
+  raid_id: 32
+  member_name: 虚幻海洋
+-
+  raid_id: 32
+  member_name: 伊佑优
+-
+  raid_id: 32
+  member_name: 援助交際
+-
+  raid_id: 33
+  member_name: Aragornlord
+-
+  raid_id: 33
+  member_name: Eanna
+-
+  raid_id: 33
+  member_name: Inmytrap
+-
+  raid_id: 33
+  member_name: Kittyz
+-
+  raid_id: 33
+  member_name: Lamphare
+-
+  raid_id: 33
+  member_name: Mmll
+-
+  raid_id: 33
+  member_name: Salala
+-
+  raid_id: 33
+  member_name: Wets
+-
+  raid_id: 33
+  member_name: 艾露妮的优雅
+-
+  raid_id: 33
+  member_name: 橙磊筱裳
+-
+  raid_id: 33
+  member_name: 饭团橙橙
+-
+  raid_id: 33
+  member_name: 飞翔的羊
+-
+  raid_id: 33
+  member_name: 公会需要
+-
+  raid_id: 33
+  member_name: 管家婆
+-
+  raid_id: 33
+  member_name: 恒梦
+-
+  raid_id: 33
+  member_name: 花的使者
+-
+  raid_id: 33
+  member_name: 卡索弥亚
+-
+  raid_id: 33
+  member_name: 老鱼
+-
+  raid_id: 33
+  member_name: 露西娅
+-
+  raid_id: 33
+  member_name: 玛雅
+-
+  raid_id: 33
+  member_name: 青锋绝影
+-
+  raid_id: 33
+  member_name: 碎羽
+-
+  raid_id: 33
+  member_name: 天堂的樱花
+-
+  raid_id: 33
+  member_name: 天天都要偷
+-
+  raid_id: 33
+  member_name: 小七
+-
+  raid_id: 33
+  member_name: 欣爷万万岁
+-
+  raid_id: 33
+  member_name: 虚幻海洋
+-
+  raid_id: 33
+  member_name: 伊佑优
+-
+  raid_id: 33
+  member_name: 援助交際
+-
+  raid_id: 34
+  member_name: Aragornlord
+-
+  raid_id: 34
+  member_name: Eanna
+-
+  raid_id: 34
+  member_name: Inmytrap
+-
+  raid_id: 34
+  member_name: Kittyz
+-
+  raid_id: 34
+  member_name: Lamphare
+-
+  raid_id: 34
+  member_name: Mmll
+-
+  raid_id: 34
+  member_name: Salala
+-
+  raid_id: 34
+  member_name: Wets
+-
+  raid_id: 34
+  member_name: 艾露妮的优雅
+-
+  raid_id: 34
+  member_name: 橙磊筱裳
+-
+  raid_id: 34
+  member_name: 饭团橙橙
+-
+  raid_id: 34
+  member_name: 飞翔的羊
+-
+  raid_id: 34
+  member_name: 公会需要
+-
+  raid_id: 34
+  member_name: 管家婆
+-
+  raid_id: 34
+  member_name: 恒梦
+-
+  raid_id: 34
+  member_name: 花的使者
+-
+  raid_id: 34
+  member_name: 卡索弥亚
+-
+  raid_id: 34
+  member_name: 老鱼
+-
+  raid_id: 34
+  member_name: 露西娅
+-
+  raid_id: 34
+  member_name: 玛雅
+-
+  raid_id: 34
+  member_name: 青锋绝影
+-
+  raid_id: 34
+  member_name: 碎羽
+-
+  raid_id: 34
+  member_name: 天堂的樱花
+-
+  raid_id: 34
+  member_name: 天天都要偷
+-
+  raid_id: 34
+  member_name: 小七
+-
+  raid_id: 34
+  member_name: 欣爷万万岁
+-
+  raid_id: 34
+  member_name: 虚幻海洋
+-
+  raid_id: 34
+  member_name: 伊佑优
+-
+  raid_id: 34
+  member_name: 援助交際
+-
+  raid_id: 35
+  member_name: Aragornlord
+-
+  raid_id: 35
+  member_name: Eanna
+-
+  raid_id: 35
+  member_name: Inmytrap
+-
+  raid_id: 35
+  member_name: Lamphare
+-
+  raid_id: 35
+  member_name: Mmll
+-
+  raid_id: 35
+  member_name: Salala
+-
+  raid_id: 35
+  member_name: Wets
+-
+  raid_id: 35
+  member_name: kewell
+-
+  raid_id: 35
+  member_name: 艾露妮的优雅
+-
+  raid_id: 35
+  member_name: 橙磊筱裳
+-
+  raid_id: 35
+  member_name: 饭团橙橙
+-
+  raid_id: 35
+  member_name: 公会需要
+-
+  raid_id: 35
+  member_name: 管家婆
+-
+  raid_id: 35
+  member_name: 恒梦
+-
+  raid_id: 35
+  member_name: 卡索弥亚
+-
+  raid_id: 35
+  member_name: 露西娅
+-
+  raid_id: 35
+  member_name: 玛雅
+-
+  raid_id: 35
+  member_name: 暮色边城
+-
+  raid_id: 35
+  member_name: 青锋绝影
+-
+  raid_id: 35
+  member_name: 天堂的樱花
+-
+  raid_id: 35
+  member_name: 天天都要偷
+-
+  raid_id: 35
+  member_name: 小七
+-
+  raid_id: 35
+  member_name: 虚幻海洋
+-
+  raid_id: 35
+  member_name: 伊佑优
+-
+  raid_id: 35
+  member_name: 御剑随枫
+-
+  raid_id: 35
+  member_name: 援助交際
+-
+  raid_id: 35
+  member_name: 黯殇骑士
+-
+  raid_id: 36
+  member_name: Aragornlord
+-
+  raid_id: 36
+  member_name: Eanna
+-
+  raid_id: 36
+  member_name: Inmytrap
+-
+  raid_id: 36
+  member_name: Kittyz
+-
+  raid_id: 36
+  member_name: Lamphare
+-
+  raid_id: 36
+  member_name: Mmll
+-
+  raid_id: 36
+  member_name: Salala
+-
+  raid_id: 36
+  member_name: Wets
+-
+  raid_id: 36
+  member_name: kewell
+-
+  raid_id: 36
+  member_name: 艾露妮的优雅
+-
+  raid_id: 36
+  member_name: 橙磊筱裳
+-
+  raid_id: 36
+  member_name: 饭团橙橙
+-
+  raid_id: 36
+  member_name: 公会需要
+-
+  raid_id: 36
+  member_name: 管家婆
+-
+  raid_id: 36
+  member_name: 恒梦
+-
+  raid_id: 36
+  member_name: 花的使者
+-
+  raid_id: 36
+  member_name: 卡索弥亚
+-
+  raid_id: 36
+  member_name: 露西娅
+-
+  raid_id: 36
+  member_name: 玛雅
+-
+  raid_id: 36
+  member_name: 暮色边城
+-
+  raid_id: 36
+  member_name: 青锋绝影
+-
+  raid_id: 36
+  member_name: 纱洛
+-
+  raid_id: 36
+  member_name: 碎羽
+-
+  raid_id: 36
+  member_name: 天堂的樱花
+-
+  raid_id: 36
+  member_name: 天天都要偷
+-
+  raid_id: 36
+  member_name: 条形码
+-
+  raid_id: 36
+  member_name: 小七
+-
+  raid_id: 36
+  member_name: 欣爷万万岁
+-
+  raid_id: 36
+  member_name: 虚幻海洋
+-
+  raid_id: 36
+  member_name: 炎黄有梦
+-
+  raid_id: 36
+  member_name: 伊佑优
+-
+  raid_id: 36
+  member_name: 御剑随枫
+-
+  raid_id: 36
+  member_name: 援助交際
+-
+  raid_id: 36
+  member_name: 黯殇骑士
+-
+  raid_id: 37
+  member_name: Aragornlord
+-
+  raid_id: 37
+  member_name: Eanna
+-
+  raid_id: 37
+  member_name: Inmytrap
+-
+  raid_id: 37
+  member_name: Lamphare
+-
+  raid_id: 37
+  member_name: Mmll
+-
+  raid_id: 37
+  member_name: Salala
+-
+  raid_id: 37
+  member_name: Wets
+-
+  raid_id: 37
+  member_name: 艾露妮的优雅
+-
+  raid_id: 37
+  member_name: 橙磊筱裳
+-
+  raid_id: 37
+  member_name: 饭团橙橙
+-
+  raid_id: 37
+  member_name: 公会需要
+-
+  raid_id: 37
+  member_name: 管家婆
+-
+  raid_id: 37
+  member_name: 花的使者
+-
+  raid_id: 37
+  member_name: 卡索弥亚
+-
+  raid_id: 37
+  member_name: 露西娅
+-
+  raid_id: 37
+  member_name: 玛雅
+-
+  raid_id: 37
+  member_name: 暮色边城
+-
+  raid_id: 37
+  member_name: 青锋绝影
+-
+  raid_id: 37
+  member_name: 纱洛
+-
+  raid_id: 37
+  member_name: 碎羽
+-
+  raid_id: 37
+  member_name: 天堂的樱花
+-
+  raid_id: 37
+  member_name: 天天都要偷
+-
+  raid_id: 37
+  member_name: 小七
+-
+  raid_id: 37
+  member_name: 欣爷万万岁
+-
+  raid_id: 37
+  member_name: 虚幻海洋
+-
+  raid_id: 37
+  member_name: 炎黄有梦
+-
+  raid_id: 37
+  member_name: 伊佑优
+-
+  raid_id: 37
+  member_name: 御剑随枫
+-
+  raid_id: 37
+  member_name: 援助交際
+-
+  raid_id: 37
+  member_name: 黯殇骑士
+-
+  raid_id: 38
+  member_name: Aragornlord
+-
+  raid_id: 38
+  member_name: Eanna
+-
+  raid_id: 38
+  member_name: Inmytrap
+-
+  raid_id: 38
+  member_name: Lamphare
+-
+  raid_id: 38
+  member_name: Mmll
+-
+  raid_id: 38
+  member_name: Salala
+-
+  raid_id: 38
+  member_name: Wets
+-
+  raid_id: 38
+  member_name: 艾露妮的优雅
+-
+  raid_id: 38
+  member_name: 橙磊筱裳
+-
+  raid_id: 38
+  member_name: 饭团橙橙
+-
+  raid_id: 38
+  member_name: 公会需要
+-
+  raid_id: 38
+  member_name: 管家婆
+-
+  raid_id: 38
+  member_name: 花的使者
+-
+  raid_id: 38
+  member_name: 卡索弥亚
+-
+  raid_id: 38
+  member_name: 露西娅
+-
+  raid_id: 38
+  member_name: 玛雅
+-
+  raid_id: 38
+  member_name: 暮色边城
+-
+  raid_id: 38
+  member_name: 青锋绝影
+-
+  raid_id: 38
+  member_name: 纱洛
+-
+  raid_id: 38
+  member_name: 天堂的樱花
+-
+  raid_id: 38
+  member_name: 天天都要偷
+-
+  raid_id: 38
+  member_name: 小七
+-
+  raid_id: 38
+  member_name: 欣爷万万岁
+-
+  raid_id: 38
+  member_name: 虚幻海洋
+-
+  raid_id: 38
+  member_name: 炎黄有梦
+-
+  raid_id: 38
+  member_name: 伊佑优
+-
+  raid_id: 38
+  member_name: 御剑随枫
+-
+  raid_id: 38
+  member_name: 援助交際
+-
+  raid_id: 38
+  member_name: 黯殇骑士
+-
+  raid_id: 39
+  member_name: Aragornlord
+-
+  raid_id: 39
+  member_name: Eanna
+-
+  raid_id: 39
+  member_name: Inmytrap
+-
+  raid_id: 39
+  member_name: Lamphare
+-
+  raid_id: 39
+  member_name: Mmll
+-
+  raid_id: 39
+  member_name: Salala
+-
+  raid_id: 39
+  member_name: Wets
+-
+  raid_id: 39
+  member_name: 艾露妮的优雅
+-
+  raid_id: 39
+  member_name: 橙磊筱裳
+-
+  raid_id: 39
+  member_name: 饭团橙橙
+-
+  raid_id: 39
+  member_name: 公会需要
+-
+  raid_id: 39
+  member_name: 管家婆
+-
+  raid_id: 39
+  member_name: 恒梦
+-
+  raid_id: 39
+  member_name: 花的使者
+-
+  raid_id: 39
+  member_name: 卡索弥亚
+-
+  raid_id: 39
+  member_name: 露西娅
+-
+  raid_id: 39
+  member_name: 玛雅
+-
+  raid_id: 39
+  member_name: 暮色边城
+-
+  raid_id: 39
+  member_name: 青锋绝影
+-
+  raid_id: 39
+  member_name: 纱洛
+-
+  raid_id: 39
+  member_name: 天堂的樱花
+-
+  raid_id: 39
+  member_name: 天天都要偷
+-
+  raid_id: 39
+  member_name: 小七
+-
+  raid_id: 39
+  member_name: 欣爷万万岁
+-
+  raid_id: 39
+  member_name: 虚幻海洋
+-
+  raid_id: 39
+  member_name: 炎黄有梦
+-
+  raid_id: 39
+  member_name: 伊佑优
+-
+  raid_id: 39
+  member_name: 御剑随枫
+-
+  raid_id: 39
+  member_name: 援助交際
+-
+  raid_id: 39
+  member_name: 黯殇骑士
+...

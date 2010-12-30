@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <h3>{{ raid.event.name }}</h3>
+        {% if admin %}
+        <p><a href='/o/editraid/{{raid.key}}'>编辑本Raid</a></p>
+        {% endif %}
+        <p>{{ raid.note }}</p>
+        <p>{{ raid.pt|rp }}rp @ {{ raid.datetime }}</p>
+        <h4>参与人员</h4>
+        <ul id="attendees">
+          {% for member in raid.attending_members %}
+          <li>{{ member|class_color }}</li>
+          {% endfor %}
+        </ul>
+        <hr />
+        <h4>战利品</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>名称</th>
+              <th>拾取人</th>
+              <th>花费rp</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for loot in raid.loots %}
+            <tr>
+              <td>
+                {% if loot.item.gid %}
+                <a href="http://db.duowan.com/wow/item-{{ loot.item.gid }}.html">{{ loot.item.name }}</a>
+                {% else %}
+                {{ loot.item.name }}
+                {% endif %}
+              </td>
+              <td style="background:#333;">{{ loot.looter|class_color }}</td>
+              <td>{{ loot.cost|rp }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+{% endblock %}

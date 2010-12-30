@@ -1,0 +1,55 @@
+{% extends "../base.html" %}
+
+{% block extrahead %}
+        <script type="text/javascript">
+          $(function(){
+            $('#add').click(function(){
+              var name = $('input[name=name]').val();
+              var pt = $('input[name=pt]').val();
+              pt = parseInt(pt);
+              if (isNaN(pt)) {
+                window.alert('pt needs to be an integer.')
+                return false;
+              }
+              var row = '<tr>';
+              row += '<td>'+name+'</td>';
+              row += '<td>'+pt+'pts</td>';
+              row += '<td>0</td></tr>';
+              $.post('/o/ajax', {
+                action: 'addevent',
+                name: name,
+                pt: pt
+              }, function(){
+                $('tbody').append(row);
+              });
+              return false;
+            });
+          });
+        </script>
+{% endblock %}
+
+{% block content %}
+        <table id="events">
+          <tbody>
+          {% for event in events %}
+          <tr>
+            <td>{{ event.name }}</td>
+            <td>{{ event.default_pt }}pts</td>
+            <td>{{ event.encounters.count }}</td>
+          </tr>
+          {% endfor %}
+          </tbody>
+          <tfoot>
+          <tr id="controls">
+            <td><input type="text" name="name" /></td>
+            <td><input type="text" name="pt" /></td>
+            <td><button id="add">添加</button></td>
+          </tr>
+          </tfoot>
+>        </table>
+
+        <form action="/o/events" method="POST">
+          <textarea rows="15" cols="80" name="batch">批量添加</textarea>
+          <input type="submit" />
+        </form>
+{% endblock %}

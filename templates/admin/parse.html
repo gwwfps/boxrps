@@ -1,0 +1,8 @@
+{% extends "../base.html" %}
+
+{% block content %}
+        <form action="/o/parse" method="POST">
+          <textarea rows="20" cols="80" name="log"></textarea>
+          <input type="submit" />
+        </form>
+{% endblock %}

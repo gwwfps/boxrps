@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <table>
+          <thead>
+            <tr>
+              <th>活动</th>
+              <th>注释</th>
+              <th>奖励</th>
+              <th>时间</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for encounter in encounters %}
+            <tr>
+              <td><a href="/raid/{{ encounter.key }}">{{ encounter.event.name }}</a></td>
+              <td>{{ encounter.note }}</td>
+              <td>{{ encounter.pt }}pt</td>
+              <td>{{ encounter.datetime }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">第
+                {% for i in pages %}
+                <a href="/raids/{{i}}">{{i}}</a>
+                {% endfor %}页
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+{% endblock %}

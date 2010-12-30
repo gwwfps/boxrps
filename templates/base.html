@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Blade of Xegony RPS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link type="text/css" href="/css/Aristo/jquery-ui-1.8rc3.custom.css" rel="stylesheet" />
+    <link type="text/css" href="/css/main.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+    <link href="/css/jquery.loadmask.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/css/jquery.loadmask.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $('button').button();
+        $(document).ajaxStart(function(){
+          $('#content').mask('处理中……');
+        }).ajaxStop(function(){
+          $('#content').unmask();
+        });
+      });
+    </script>
+    <script type="text/javascript" src="http://db.duowan.com/wow/js/power.js"></script>
+    {% block extrahead %}{% endblock %}
+  </head>
+  <body>
+    <div id="header">
+      <img src="/css/logo.png" alt="" />
+    </div>
+    <div class="container">
+      <hr />
+
+      <div id="subheader" class="span-24 last">
+        <div class="span-20"><h3>Blade of Xegony 公会RAID积分系统</h3></div>
+        <div class="span-3 last"><h3><a href="http://bbs.boxguild.com/">返回论坛</a></h3></div>
+      </div>
+
+      <hr />
+    
+      <div class="span-5 colborder">
+        <ul>
+          <li><a href="/raids">RAID列表</a></li>
+          <li><a href="/events">活动</a></li>
+          <li><a href="/">积分</a></li>
+          {% if admin %}
+          <li><a href="/o/parse">导入LOG</a></li>
+          <li><a href="/o/events">管理活动</a></li>
+          <li><a href="/o/adjust">个人调整</a></li>
+          {% endif %}
+        </ul>
+      </div>
+      <div class="span-18 last" id="content">
+        {% block content %}{% endblock %}
+      </div>
+    </div>
+  </body>
+</html>

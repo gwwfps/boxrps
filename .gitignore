@@ -1,0 +1,14 @@
+*.pyc
+*.pyo
+*~
+.DS_Store
+.project
+*.swp
+*~.nib
+bulkloader-log*
+bulkloader-progress*
+.sass-cache
+.idea
+.svn
+.hg
+Thumbs.db

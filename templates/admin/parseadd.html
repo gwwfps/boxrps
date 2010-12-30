@@ -1,0 +1,139 @@
+{% extends "../base.html" %}
+
+{% block extrahead %}
+        <script type="text/javascript">
+          $(function(){
+            var members = [
+            {% for member in all_members %}
+              "{{ member.name }}",
+            {% endfor %}
+            ];
+            $('input[name=new_attendee]').autocomplete({source: members});
+            $('select[name=event]').change(function(){
+              $.post('/o/ajax', {
+                action: 'geteventpt',
+                key: $(this).val()
+              }, function(data) {
+                $('input[name=pt]').val(data['pt']);
+              }, 'json');
+            }).change();
+            $('#members li').live('dblclick', function(){
+              $(this).fadeOut(function(){
+                $('select[name=lootmember] option[value='+$(this).text()+']').remove();
+                $(this).remove();
+              });
+            });
+            $('#loot tr').live('dblclick', function(){
+              $(this).fadeOut(function(){
+                $(this).remove();
+              });
+            });
+            $('input[name=date]').datepicker({dateFormat: "yy.mm.dd 19:30"});
+            $('#addmember').click(function(){
+              var name = $('input[name=new_attendee]').val();
+              var exists = false;
+              $('#members li').each(function(){
+                if ($(this).text().toLowerCase()==name.toLowerCase()) {
+                  exists = true;
+                }
+              });
+              if (!exists) {
+                $('#members').append('<li>'+name+'</li>');
+                $('select[name=lootmember]').append('<option value="'+name+'">'+name+'</option>');
+              }
+              return false;
+            });
+            $('#addloot').click(function(){
+              var lootname = $('input[name=new_loot]').val();
+              var tr = '<tr><td>'+lootname+'</td><td>{{ datetime }}</td><td>';
+              tr += $('select[name=lootmember]').val()+'</td><td>';
+              tr += '<input name="itempt" value="0" /></td></tr>';
+              $('#loot').append(tr);
+            });
+            $('#save').click(function(){
+              var event = $('select[name=event]').val();
+              var date = $('input[name=date]').val();
+              var pt = $('input[name=pt]').val();
+              var note = $('input[name=note]').val();
+              var members = "";
+              $('#members li').each(function(){
+                members += $(this).text()+'|';
+              });
+              var loot = '';
+              $('#loot tr').each(function(){
+                var one = $(this).attr('data-iid')+';';
+                var $td = $(this).children().first();
+                one += $td.text()+';';
+                $td = $td.next();
+                one += $td.text()+';';
+                $td = $td.next();
+                one += $td.text()+';';
+                $td = $td.next();
+                one += $td.children().first().val()+';';
+                one += $(this).attr('data-lkey');
+                loot += one+'|';
+              });
+              $.post('/o/ajax', {
+                action: 'addraid',
+                {% if key %}
+                key: '{{key}}',
+                {% endif %}
+                event: event,
+                date: date,
+                pt: pt,
+                note: note,
+                members: members,
+                loot: loot
+              }, function(data){
+                window.location = '/raid/'+data['key'];
+              }, 'json');
+            });
+          });
+        </script>
+{% endblock %}
+
+{% block content %}
+        <h3>活动内容</h3>
+        <ul>
+          <li>事件:
+          {% if key %}
+          {{ raid.event.name }}
+          {% else %}
+          <select name="event">
+            {% for event in events %}
+            <option value="{{ event.key }}" {% ifequal str(event.key()) se %}selected{% endifequal %}>{{ event.name }}</option>
+            {% endfor %}
+          </select>
+          {% endif %}
+          </li>
+          <li>日期: <input type="text" name='date' value="{{ datetime }}" /></li>
+          <li>PT: <input name="pt" value="{{raid.pt}}" /></li>
+          <li>备注: <input name="note" value="{{raid.note}}" /></li>
+          <button id="save">Save</button>
+        </ul>
+        <h3>参与人员(双击去除)</h3>
+        <ul id="members">
+          {% for member in members %}
+          <li>{{ member }}</li>
+          {% endfor %}
+        </ul>
+        <input name="new_attendee" /> <button id="addmember">Add</button>
+        <h3>LOOT(双击去除)</h3>
+        <table id="loot">
+          {% for item in items %}
+          <tr data-iid="{{ item.0 }}" data-lkey="{{item.5}}">
+            <td>{{ item.1 }}</td>
+            <td>{{ item.2 }}</td>
+            <td>{{ item.3 }}</td>
+            <td><input name="itempt" value="{{ item.4 }}" /></td>
+          </tr>
+          {% endfor %}
+        </table>
+        <input name="new_loot" />
+        <select name="lootmember">
+          {% for member in members %}
+          <option value="{{member}}">{{member}}</option>
+          {% endfor %}
+        </select>
+        <button id="addloot">Add</button>
+{% endblock %}

@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <h3>{{ member.name }}</h3>
+        <table>
+          <thead>
+            <th>当前rp</th>
+            <th>奖励rp</th>
+            <th>花费rp</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>{{ member.balance|rp }}</b></td>
+              <td>{{ member.earned|rp }}</td>
+              <td>{{ member.spent|rp }}</td>
+            </tr>
+          </tbody>
+        </table>            
+        <h4>参与活动</h4>
+        <table>
+          <thead>
+            <th>日期</th>
+            <th>活动</th>
+            <th>奖励rp</th>
+            <th>注释</th>
+          </thead>
+          <tbody>
+            {% for encounter in member.attended_encounters %}
+            <tr>
+              <td>{{ encounter.datetime }}</td>
+              <td><a href="/raid/{{ encounter.key }}">{{ encounter.event.name }}</a></td>
+              <td>{{ encounter.pt|rp }}</td>
+              <td>{{ encounter.note }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <h4>获得战利品</h4>
+        <table>
+          <thead>
+            <th>日期</th>
+            <th>物品</th>
+            <th>活动</th>
+            <th>花费rp</th>
+          </thead>
+          <tbody>
+            {% for loot in member.loot_set %}
+            <tr>
+            <td>{{ loot.datetime }}</td>
+            <td>
+              {% if loot.item.gid %}
+              <a href="http://db.duowan.com/wow/item-{{ loot.item.gid }}.html">{{ loot.item.name }}</a>
+              {% else %}
+              {{ loot.item.name }}
+              {% endif %}
+            </td>
+            <td>{{ loot.encounter.event.name }}</td>
+            <td>{{ loot.cost|rp }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <h4>个人调整</h4>
+        <table>
+          <thead>
+            <th>日期</th>
+            <th>理由</th>
+            <th>rp</th>
+          </thead>
+          <tbody>
+            {% for adjustment in member.adjustment_set %}
+            <tr>
+            <td>{{ adjustment.datetime|date:"Y.m.d" }}</td>
+            <td>{{ adjustment.reason }}</td>
+            <td>{{ adjustment.pt|rp }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+{% endblock %}

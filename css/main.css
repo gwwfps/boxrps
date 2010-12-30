@@ -1,0 +1,29 @@
+#header {
+  height: 125px;
+  background: url('valiance.jpg');
+  text-align: center;
+}
+
+#header img {
+  position: relative;
+  top: 25px;
+}
+
+#subheader h3 {
+  color: #777;
+}
+
+#attendees {
+  list-style-type: none;
+}
+
+#attendees li {
+  margin: 3px;
+  padding: 1px;
+  float: left;
+  border: 1px solid #000;
+  width: 65px;
+  height: 35px;
+  background: #333;
+  text-align: center;
+}

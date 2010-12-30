@@ -1,0 +1,41 @@
+{% extends "../base.html" %}
+
+{% block extrahead %}
+        <script type="text/javascript">
+          $(function(){
+            var members = [
+            {% for member in members %}
+              "{{ member.name }}",
+            {% endfor %}
+            ];
+            $('input[name=member]').autocomplete({source: members});
+            $('#adj li').dblclick(function(){
+              var $li = $(this);
+              $.post('/o/ajax', {
+                'action': 'deladjustment',
+                'aid': $(this).attr('data-aid')
+              }, function(data){
+                $li.fadeOut();
+              }, 'json');
+            });
+          });
+        </script>
+{% endblock %}
+
+{% block content %}
+        <h3>调整（双击删除）</h3>
+        <ul id="adj">
+          {% for adj in adjustments %}
+          <li data-aid="{{ adj.key }}">{{ adj.member.name }} {{ adj.pt|rp }}rp @ {{ adj.datetime|date:"Y.m.d" }} ({{ adj.reason }})</li>
+          {% endfor %}
+        </ul>
+        <h3>添加</h3>
+        <form action="/o/adjust" method="POST">
+        <ul>
+          <li>会员: <input name="member" /></li>
+          <li><input name="pt" />rp</li>
+          <li>理由: <input name="reason" /></li>
+          <li><input type="submit" /></li>
+        </ul>
+        </form>
+{% endblock %}
