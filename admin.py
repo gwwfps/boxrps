@@ -56,7 +56,7 @@ class ParseHandler(webapp.RequestHandler):
             items.append(parse_item(name) + (time, looter, pt))
 
         render_to(self.response, 'admin/parseadd.html',
-                  members=set(members), all_members=all_members, events=Event.all(),
+                  members=set(members), all_members=all_members, events=Event.all().order('name'),
                   datetime=parsed.getElementsByTagName('start')[0].firstChild.toxml(),
                   items=items)
 
