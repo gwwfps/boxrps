@@ -6,15 +6,13 @@
             <tr>
               <th>活动</th>
               <th>通常奖励</th>
-              <th>总次数</th>
             </tr>
           </thead>
           <tbody>
             {% for event in events %}
             <tr>
-              <td>{{ event.name }}</td>
+              <td><a href="/event/{{event.key}}">{{ event.name }}</a></td>
               <td>{{ event.default_pt }}pt</td>
-              <td>{{ event.encounters.count }}</td>
             </tr>
             {% endfor %}
           </tbody>

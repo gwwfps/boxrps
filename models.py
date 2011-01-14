@@ -1,4 +1,5 @@
 import logging
+from collections import defaultdict
 from datetime import datetime, timedelta
 from google.appengine.ext import db
 
@@ -12,6 +13,8 @@ class Member(db.Model):
     adjusted = db.IntegerProperty(default=0)
     balance = db.IntegerProperty(default=0)
     usable = db.IntegerProperty(default=0)
+
+    last_attd = db.StringProperty(default='')
 
     @property
     def attended_encounters(self):
@@ -30,6 +33,37 @@ class Member(db.Model):
 class Event(db.Model):
     name = db.StringProperty(required=True)
     default_pt = db.IntegerProperty(default=0)
+
+    last_attd = db.StringProperty(default='')
+
+    def calc_attd(self):
+        def _attd(bucket, encounter):
+            for m in encounter.attendees:
+                bucket[str(m)] += 1
+            return bucket
+
+        encounters = [e for e in self.encounters.filter('datetime >', datetime.now()-timedelta(weeks=4))]
+        if encounters:
+            last_enc = reduce(lambda x,y: x if x.datetime > y.datetime else y, encounters)
+            total = len(encounters)
+
+            if not str(last_enc.key()) == self.last_attd:
+                members = dict([[str(m.key()), m] for m in Member.all()])
+                bucket = reduce(_attd, encounters, defaultdict(lambda: 0))
+                db.delete(self.eattd_set)
+                for k, n in bucket.iteritems():
+                    ea = EAttd()
+                    ea.member = members[k]
+                    ea.event = self
+                    ea.attd=int(float(n)/total*100)
+                    ea.put()
+                self.last_attd = str(last_enc.key())
+                self.put()
+
+class EAttd(db.Model):
+    member = db.ReferenceProperty(Member)
+    event = db.ReferenceProperty(Event)
+    attd = db.IntegerProperty(default=0)    
 
 class Encounter(db.Model):
     event = db.ReferenceProperty(Event, collection_name='encounters')

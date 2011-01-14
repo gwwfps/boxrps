@@ -10,8 +10,31 @@ indexes:
 # automatically uploaded to the admin console when you next deploy
 # your application using appcfg.py.
 
+- kind: EAttd
+  properties:
+  - name: event
+  - name: attd
+    direction: desc
+
+- kind: EAttd
+  properties:
+  - name: member
+  - name: attd
+    direction: desc
+
 - kind: Encounter
   properties:
   - name: attendees
+  - name: datetime
+    direction: desc
+
+- kind: Encounter
+  properties:
+  - name: event
+  - name: datetime
+
+- kind: Loot
+  properties:
+  - name: looter
   - name: datetime
     direction: desc

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h3>{{ member.name }}</h3>
+
+<h4>所有战利品<span style="float:right;"><a href="/member/{{ member.name }}">&lt;&lt;返回会员信息</a></span></h4>
+        <table>
+          <thead>
+            <th>日期</th>
+            <th>物品</th>
+            <th>活动</th>
+            <th>花费rp</th>
+          </thead>
+          <tbody>
+            {% for loot in member.loot_set %}
+            <tr>
+            <td>{{ loot.datetime }}</td>
+            <td>
+              {% if loot.item.gid %}
+              <a href="http://db.duowan.com/wow/item-{{ loot.item.gid }}.html">{{ loot.item.name }}</a>
+              {% else %}
+              {{ loot.item.name }}
+              {% endif %}
+            </td>
+            <td>{{ loot.encounter.event.name }}</td>
+            <td>{{ loot.cost|rp }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+{% endblock %}
+ 

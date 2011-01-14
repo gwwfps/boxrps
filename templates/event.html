@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h3>{{event.name}}</h3>
+<h4>最近四周出勤</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>会员</th>
+              <th>出勤</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for ea in attd %}
+            <tr>
+              <td><a href="/member/{{ea.member.name}}">{{ ea.member.name }}</a></td>
+              <td>{{ ea.attd }}%</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+{% endblock %} 

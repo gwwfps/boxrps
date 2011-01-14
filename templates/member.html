@@ -7,16 +7,18 @@
             <th>当前rp</th>
             <th>奖励rp</th>
             <th>花费rp</th>
+            <th>四周出勤</th>
           </thead>
           <tbody>
             <tr>
               <td>{{ member.balance|rp }} (<b>{{ member.usable|rp }}</b>可用)</td>
               <td>{{ member.earned|rp }}</td>
               <td>{{ member.spent|rp }}</td>
+              <td>{{ member.attendance }}% <a href="/member/{{member.name}}/attd">详情</a></td>
             </tr>
           </tbody>
         </table>            
-        <h4>最近四周活动（出勤：{{ member.attendance }}%）</h4>
+        <h4>最近10次活动<span style="float:right;"><a href="/member/{{member.name}}/raids">显示全部</a></span></h4>
         <table>
           <thead>
             <th>日期</th>
@@ -35,7 +37,7 @@
             {% endfor %}
           </tbody>
         </table>
-        <h4>获得战利品</h4>
+        <h4>最近5件战利品<span style="float:right;"><a href="/member/{{member.name}}/loots">显示全部</a></span></h4>
         <table>
           <thead>
             <th>日期</th>
@@ -44,7 +46,7 @@
             <th>花费rp</th>
           </thead>
           <tbody>
-            {% for loot in member.loot_set %}
+            {% for loot in loots %}
             <tr>
             <td>{{ loot.datetime }}</td>
             <td>

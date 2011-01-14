@@ -31,24 +31,39 @@ class MainHandler(webapp.RequestHandler):
 
 class RaidListHandler(webapp.RequestHandler):
     def get(self, page=1):
-        pages = ceil(float(Encounter.all().count())/30)
+        pages = int(ceil(float(Encounter.all().count())/30))
         encounters = Encounter.all().order('-datetime').fetch(30, offset=(int(page)-1)*30)
         render_to(self.response, 'raids.html', encounters=encounters, pages=range(1, pages+1))
 
 class MemberDetailHandler(webapp.RequestHandler):
-    def get(self, name):
+    def get(self, name, option):
         member = Member.gql('WHERE name = :1',
                             urllib.unquote(name).decode('utf-8').capitalize()).get()
         if member:
-            raids = member.attended_encounters.filter('datetime >',
-                                                      datetime.now()-timedelta(weeks=4))
-            render_to(self.response, 'member.html', member=member, raids=raids)
+            if option == '/raids':
+                raids = member.attended_encounters
+                render_to(self.response, 'memberraids.html', member=member, raids=raids)
+            elif option == '/loots':
+                render_to(self.response, 'memberloots.html', member=member)
+            elif option == '/attd':
+                render_to(self.response, 'memberattd.html', member=member, attd=member.eattd_set.order('-attd'))
+            else:
+                raids = member.attended_encounters.fetch(10)
+                render_to(self.response, 'member.html', member=member,
+                          raids=raids, loots=member.loot_set.order('-datetime').fetch(5))
 
 class EventListHandler(webapp.RequestHandler):
     def get(self):
         events = Event.all().order('name')
         render_to(self.response, 'events.html', events=events)
 
+class EventHandler(webapp.RequestHandler):
+    def get(self, key):
+        event = Event.get(db.Key(key))
+        if event:
+            event.calc_attd()
+            render_to(self.response, 'event.html', event=event, attd=event.eattd_set.order('-attd'))
+                
 class RaidDetailHandler(webapp.RequestHandler):
     def get(self, key):
         raid = Encounter.get(db.Key(key))
@@ -62,8 +77,9 @@ def main():
                                           ('/raids', RaidListHandler),
                                           ('/raids/(\d+)', RaidListHandler),
                                           ('/events', EventListHandler),
+                                          ('/event/(.+)', EventHandler),
                                           ('/raid/(.+)', RaidDetailHandler),
-                                          ('/member/(.+)', MemberDetailHandler)],
+                                          ('/member/([^/]+)(.*)', MemberDetailHandler)],
                                          debug=True)
     util.run_wsgi_app(application)
 

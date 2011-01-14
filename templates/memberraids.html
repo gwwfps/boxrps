@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h3>{{ member.name }}</h3>
+
+<h4>所有活动<span style="float:right;"><a href="/member/{{ member.name }}">&lt;&lt;返回会员信息</a></span></h4>
+        <table>
+          <thead>
+            <th>日期</th>
+            <th>活动</th>
+            <th>奖励rp</th>
+            <th>注释</th>
+          </thead>
+          <tbody>
+            {% for encounter in raids %}
+            <tr>
+              <td>{{ encounter.datetime }}</td>
+              <td><a href="/raid/{{ encounter.key }}">{{ encounter.event.name }}</a></td>
+              <td>{{ encounter.pt|rp }}</td>
+              <td>{{ encounter.note }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+{% endblock %}
