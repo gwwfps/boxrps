@@ -2,11 +2,11 @@ import os
 from google.appengine.ext.webapp import template
 from google.appengine.api import users
 
-def render_to(response, file, **context):
+def render_template(file, **context):
     template.register_template_library('filters')
     path = os.path.join(os.path.dirname(__file__), 'templates', file)
     context['admin'] = users.is_current_user_admin()
-    response.out.write(template.render(path, context))
+    return template.render(path, context)
 
 def get_text(nodelist):
     rc = []
